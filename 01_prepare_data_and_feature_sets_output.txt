@@ -1,0 +1,162 @@
+river hazır.
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+[v7-freq-terms] ham veri kaynağı çözülüyor ...
+  kaynak: /content/drive/MyDrive/MSHA_pipeline/ckpt/s1_data.pkl  (146 MB, pickle)
+
+======================================================================
+KOL S — Strict (point-of-incident only)
+======================================================================
+  [v7-freq-terms] ham veri hazırlanıyor ...
+  dışlanan (idari/karşılaştırılamaz): 42,138
+  kalan: 217,305 satır  (S kolunda 217.305 çıkmıştı)
+  arm S: 217,305 satır | 28 yapısal özellik | 100 tfidf | işaretli terim 27
+ [A] nedensel referans koşusu
+     2006  F1=0.465  err=0.357  (63s)
+     2007  F1=0.484  err=0.354  (60s)
+     2008  F1=0.478  err=0.361  (53s)
+     2009  F1=0.471  err=0.341  (53s)
+     2010  F1=0.476  err=0.351  (56s)
+     2011  F1=0.457  err=0.349  (54s)
+     2012  F1=0.494  err=0.348  (53s)
+     2013  F1=0.464  err=0.356  (54s)
+     2014  F1=0.467  err=0.357  (55s)
+     2015  F1=0.476  err=0.365  (54s)
+     2016  F1=0.463  err=0.364  (55s)
+     2017  F1=0.489  err=0.364  (55s)
+     2018  F1=0.478  err=0.376  (52s)
+     2019  F1=0.449  err=0.384  (54s)
+     2020  F1=0.460  err=0.381  (56s)
+     2021  F1=0.467  err=0.392  (58s)
+     2022  F1=0.456  err=0.386  (55s)
+     2023  F1=0.455  err=0.373  (54s)
+ [B] kayma tespiti
+     ADWIN=[2019]  DDM=[]  consensus=[]
+     sıralama=[[2019], [2019], [], [], []]
+     delta=[[], [], [], [], []]
+     (konsensüs yok → adaptive == static, atlanıyor)
+ [C] stratejiler
+     rolling_5            2006  F1=0.486
+     rolling_5            2007  F1=0.479
+     rolling_5            2008  F1=0.488
+     rolling_5            2009  F1=0.473
+     rolling_5            2010  F1=0.477
+     rolling_5            2011  F1=0.469
+     rolling_5            2012  F1=0.496
+     rolling_5            2013  F1=0.491
+     rolling_5            2014  F1=0.471
+     rolling_5            2015  F1=0.474
+     rolling_5            2016  F1=0.460
+     rolling_5            2017  F1=0.457
+     rolling_5            2018  F1=0.481
+     rolling_5            2019  F1=0.452
+     rolling_5            2020  F1=0.443
+     rolling_5            2021  F1=0.452
+     rolling_5            2022  F1=0.446
+     rolling_5            2023  F1=0.476
+
+======================================================================
+KOL B — Borderline (+ triage-known clinical)
+======================================================================
+  arm B: 217,305 satır | 33 yapısal özellik | 100 tfidf | işaretli terim 27
+ [A] nedensel referans koşusu
+     2006  F1=0.657  err=0.326  (58s)
+     2007  F1=0.664  err=0.325  (58s)
+     2008  F1=0.674  err=0.324  (58s)
+     2009  F1=0.682  err=0.310  (56s)
+     2010  F1=0.663  err=0.317  (57s)
+     2011  F1=0.666  err=0.318  (55s)
+     2012  F1=0.673  err=0.311  (54s)
+     2013  F1=0.684  err=0.316  (56s)
+     2014  F1=0.660  err=0.327  (56s)
+     2015  F1=0.670  err=0.335  (57s)
+     2016  F1=0.680  err=0.333  (59s)
+     2017  F1=0.670  err=0.331  (58s)
+     2018  F1=0.684  err=0.336  (53s)
+     2019  F1=0.659  err=0.338  (54s)
+     2020  F1=0.665  err=0.344  (56s)
+     2021  F1=0.668  err=0.349  (58s)
+     2022  F1=0.667  err=0.342  (58s)
+     2023  F1=0.664  err=0.338  (57s)
+ [B] kayma tespiti
+     ADWIN=[2019]  DDM=[2018]  consensus=[]
+     sıralama=[[], [], [], [], []]
+     delta=[[], [], [], [2018], [2018]]
+     (konsensüs yok → adaptive == static, atlanıyor)
+ [C] stratejiler
+     rolling_5            2006  F1=0.654
+     rolling_5            2007  F1=0.663
+     rolling_5            2008  F1=0.679
+     rolling_5            2009  F1=0.685
+     rolling_5            2010  F1=0.664
+     rolling_5            2011  F1=0.678
+     rolling_5            2012  F1=0.666
+     rolling_5            2013  F1=0.678
+     rolling_5            2014  F1=0.662
+     rolling_5            2015  F1=0.673
+     rolling_5            2016  F1=0.674
+     rolling_5            2017  F1=0.673
+     rolling_5            2018  F1=0.678
+     rolling_5            2019  F1=0.662
+     rolling_5            2020  F1=0.661
+     rolling_5            2021  F1=0.658
+     rolling_5            2022  F1=0.655
+     rolling_5            2023  F1=0.657
+
+======================================================================
+KOL L — Leaky (EAAI feature set)
+======================================================================
+  arm L: 217,305 satır | 41 yapısal özellik | 100 tfidf | işaretli terim 27
+ [A] nedensel referans koşusu
+     2006  F1=0.998  err=0.002  (25s)
+     2007  F1=0.994  err=0.002  (29s)
+     2008  F1=0.997  err=0.002  (30s)
+     2009  F1=0.998  err=0.002  (29s)
+     2010  F1=0.998  err=0.002  (31s)
+     2011  F1=0.997  err=0.001  (28s)
+     2012  F1=0.999  err=0.001  (28s)
+     2013  F1=0.999  err=0.000  (29s)
+     2014  F1=1.000  err=0.000  (29s)
+     2015  F1=0.999  err=0.000  (29s)
+     2016  F1=1.000  err=0.000  (28s)
+     2017  F1=1.000  err=0.000  (29s)
+     2018  F1=1.000  err=0.001  (30s)
+     2019  F1=0.997  err=0.001  (32s)
+     2020  F1=1.000  err=0.000  (31s)
+     2021  F1=0.999  err=0.001  (29s)
+     2022  F1=0.998  err=0.002  (27s)
+     2023  F1=0.996  err=0.005  (27s)
+ [B] kayma tespiti
+     ADWIN=[2016, 2023]  DDM=[2006]  consensus=[]
+     sıralama=[[], [], [2023], [2023], [2023]]
+     delta=[[], [], [], [], []]
+     (konsensüs yok → adaptive == static, atlanıyor)
+ [C] stratejiler
+     rolling_5            2006  F1=0.999
+     rolling_5            2007  F1=0.995
+     rolling_5            2008  F1=0.999
+     rolling_5            2009  F1=0.998
+     rolling_5            2010  F1=0.998
+     rolling_5            2011  F1=0.995
+     rolling_5            2012  F1=0.999
+     rolling_5            2013  F1=0.998
+     rolling_5            2014  F1=1.000
+     rolling_5            2015  F1=0.999
+     rolling_5            2016  F1=1.000
+     rolling_5            2017  F1=0.998
+     rolling_5            2018  F1=0.999
+     rolling_5            2019  F1=0.997
+     rolling_5            2020  F1=1.000
+     rolling_5            2021  F1=1.000
+     rolling_5            2022  F1=0.996
+     rolling_5            2023  F1=0.995
+
+======================================================================
+  KOLLAR ARASI KARŞILAŞTIRMA  (nedensel static-expanding)
+======================================================================
+     mean_macro_f1  sd_macro_f1  mean_balanced_acc  mean_severe_recall  n_years  n_features consensus_drift_years                                 label
+arm                                                                                                                                                    
+B           0.6695       0.0085             0.6418              0.7105       18          33                    []  Borderline (+ triage-known clinical)
+L           0.9983       0.0015             0.9989              1.0000       18          41                    []              Leaky (EAAI feature set)
+S           0.4693       0.0122             0.4576              0.0639       18          28                    []       Strict (point-of-incident only)
+
+✅ bitti → /content/drive/MyDrive/MSHA_AEJ_v7/TABLE_cross_arm.csv

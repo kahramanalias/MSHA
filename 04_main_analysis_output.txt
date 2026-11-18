@@ -1,0 +1,409 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+[v21-pastvocab-full] → /content/drive/MyDrive/MSHA_AEJ_v7/pastvocab_v21
+  kayıt 217,305 | alan S 28 B 33 L 41
+
+=== A: ana koşu (genişleyen pencere, sözlük yalnızca geçmişten) ===
+  A_S_2006                               (0s)
+  A_S_2007                               (0s)
+  A_S_2008                               (0s)
+  A_S_2009                               (0s)
+  A_S_2010                               (0s)
+  A_S_2011                               (0s)
+  A_S_2012                               (0s)
+  A_S_2013                               (0s)
+  A_S_2014                               (0s)
+  A_S_2015                               (0s)
+  A_S_2016                               (0s)
+  A_S_2017                               (0s)
+  vocab_2018                             (15s)
+  A_S_2018                               (71s)
+  vocab_2019                             (15s)
+  A_S_2019                               (71s)
+  vocab_2020                             (16s)
+  A_S_2020                               (71s)
+  vocab_2021                             (16s)
+  A_S_2021                               (70s)
+  vocab_2022                             (17s)
+  A_S_2022                               (71s)
+  vocab_2023                             (17s)
+  A_S_2023                               (71s)
+  vocab_2006                             (6s)
+  A_B_2006                               (62s)
+  vocab_2007                             (8s)
+  A_B_2007                               (66s)
+  vocab_2008                             (8s)
+  A_B_2008                               (63s)
+  vocab_2009                             (10s)
+  A_B_2009                               (66s)
+  vocab_2010                             (10s)
+  A_B_2010                               (67s)
+  vocab_2011                             (10s)
+  A_B_2011                               (64s)
+  vocab_2012                             (12s)
+  A_B_2012                               (68s)
+  vocab_2013                             (13s)
+  A_B_2013                               (69s)
+  vocab_2014                             (14s)
+  A_B_2014                               (71s)
+  vocab_2015                             (14s)
+  A_B_2015                               (72s)
+  vocab_2016                             (14s)
+  A_B_2016                               (71s)
+  vocab_2017                             (15s)
+  A_B_2017                               (71s)
+  A_B_2018                               (58s)
+  A_B_2019                               (55s)
+  A_B_2020                               (55s)
+  A_B_2021                               (57s)
+  A_B_2022                               (56s)
+  A_B_2023                               (57s)
+  A_L_2006                               (29s)
+  A_L_2007                               (27s)
+  A_L_2008                               (30s)
+  A_L_2009                               (28s)
+  A_L_2010                               (28s)
+  A_L_2011                               (28s)
+  A_L_2012                               (28s)
+  A_L_2013                               (30s)
+  A_L_2014                               (30s)
+  A_L_2015                               (28s)
+  A_L_2016                               (28s)
+  A_L_2017                               (28s)
+  A_L_2018                               (29s)
+  A_L_2019                               (29s)
+  A_L_2020                               (29s)
+  A_L_2021                               (29s)
+  A_L_2022                               (27s)
+  A_L_2023                               (28s)
+
+=== K: kayma dedektörleri ===
+  K_detectors                            (2880s)
+
+=== T4: öğreniciler (2018-2023) ===
+  T4_S_RF_2018                           (322s)
+  T4_S_RF_2019                           (323s)
+  T4_S_RF_2020                           (324s)
+  T4_S_RF_2021                           (323s)
+  T4_S_RF_2022                           (323s)
+  T4_S_RF_2023                           (325s)
+  T4_S_HistGB_2018                       (36s)
+  T4_S_HistGB_2019                       (35s)
+  T4_S_HistGB_2020                       (36s)
+  T4_S_HistGB_2021                       (34s)
+  T4_S_HistGB_2022                       (40s)
+  T4_S_HistGB_2023                       (38s)
+  T4_S_LogReg_2018                       (117s)
+  T4_S_LogReg_2019                       (117s)
+  T4_S_LogReg_2020                       (118s)
+  T4_S_LogReg_2021                       (118s)
+  T4_S_LogReg_2022                       (116s)
+  T4_S_LogReg_2023                       (118s)
+  T4_B_RF_2018                           (341s)
+  T4_B_RF_2019                           (336s)
+  T4_B_RF_2020                           (335s)
+  T4_B_RF_2021                           (335s)
+  T4_B_RF_2022                           (338s)
+  T4_B_RF_2023                           (336s)
+  T4_B_HistGB_2018                       (41s)
+  T4_B_HistGB_2019                       (43s)
+  T4_B_HistGB_2020                       (42s)
+  T4_B_HistGB_2021                       (42s)
+  T4_B_HistGB_2022                       (38s)
+  T4_B_HistGB_2023                       (46s)
+  T4_B_LogReg_2018                       (128s)
+  T4_B_LogReg_2019                       (127s)
+  T4_B_LogReg_2020                       (129s)
+  T4_B_LogReg_2021                       (128s)
+  T4_B_LogReg_2022                       (129s)
+  T4_B_LogReg_2023                       (130s)
+
+=== T5: duyarlılık analizleri (2018-2023) ===
+  T5_S_balanced_2018                     (57s)
+  T5_S_prevthr_2018                      (52s)
+  T5_S_logregoh_2018                     (27s)
+  T5_S_balanced_2019                     (56s)
+  T5_S_prevthr_2019                      (54s)
+  T5_S_logregoh_2019                     (28s)
+  T5_S_balanced_2020                     (56s)
+  T5_S_prevthr_2020                      (55s)
+  T5_S_logregoh_2020                     (28s)
+  T5_S_balanced_2021                     (56s)
+  T5_S_prevthr_2021                      (52s)
+  T5_S_logregoh_2021                     (27s)
+  T5_S_balanced_2022                     (54s)
+  T5_S_prevthr_2022                      (55s)
+  T5_S_logregoh_2022                     (29s)
+  T5_S_balanced_2023                     (57s)
+  T5_S_prevthr_2023                      (55s)
+  T5_S_logregoh_2023                     (28s)
+  T5_B_balanced_2018                     (58s)
+  T5_B_prevthr_2018                      (58s)
+  T5_B_logregoh_2018                     (29s)
+  T5_B_balanced_2019                     (58s)
+  T5_B_prevthr_2019                      (56s)
+  T5_B_logregoh_2019                     (29s)
+  T5_B_balanced_2020                     (56s)
+  T5_B_prevthr_2020                      (54s)
+  T5_B_logregoh_2020                     (28s)
+  T5_B_balanced_2021                     (59s)
+  T5_B_prevthr_2021                      (56s)
+  T5_B_logregoh_2021                     (29s)
+  T5_B_balanced_2022                     (56s)
+  T5_B_prevthr_2022                      (57s)
+  T5_B_logregoh_2022                     (28s)
+  T5_B_balanced_2023                     (58s)
+  T5_B_prevthr_2023                      (56s)
+  T5_B_logregoh_2023                     (29s)
+
+=== T7: alan alan ekleme (2018-2023) ===
+  T7_DAYSLOST_2018                       (56s)
+  T7_DAYSLOST_2019                       (56s)
+  T7_DAYSLOST_2020                       (56s)
+  T7_DAYSLOST_2021                       (55s)
+  T7_DAYSLOST_2022                       (57s)
+  T7_DAYSLOST_2023                       (57s)
+  T7_SCHEDULECHARGE_2018                 (46s)
+  T7_SCHEDULECHARGE_2019                 (49s)
+  T7_SCHEDULECHARGE_2020                 (46s)
+  T7_SCHEDULECHARGE_2021                 (46s)
+  T7_SCHEDULECHARGE_2022                 (45s)
+  T7_SCHEDULECHARGE_2023                 (47s)
+  T7_DAYSRESTRICT_2018                   (52s)
+  T7_DAYSRESTRICT_2019                   (53s)
+  T7_DAYSRESTRICT_2020                   (54s)
+  T7_DAYSRESTRICT_2021                   (54s)
+  T7_DAYSRESTRICT_2022                   (53s)
+  T7_DAYSRESTRICT_2023                   (53s)
+  T7_TRANSTERM_2018                      (55s)
+  T7_TRANSTERM_2019                      (55s)
+  T7_TRANSTERM_2020                      (54s)
+  T7_TRANSTERM_2021                      (56s)
+  T7_TRANSTERM_2022                      (55s)
+  T7_TRANSTERM_2023                      (55s)
+  T7_IMMEDNOTIFYbothforms_2018           (57s)
+  T7_IMMEDNOTIFYbothforms_2019           (56s)
+  T7_IMMEDNOTIFYbothforms_2020           (57s)
+  T7_IMMEDNOTIFYbothforms_2021           (56s)
+  T7_IMMEDNOTIFYbothforms_2022           (56s)
+  T7_IMMEDNOTIFYbothforms_2023           (55s)
+  T7_RETURNTOWORKDT_2018                 (55s)
+  T7_RETURNTOWORKDT_2019                 (57s)
+  T7_RETURNTOWORKDT_2020                 (56s)
+  T7_RETURNTOWORKDT_2021                 (56s)
+  T7_RETURNTOWORKDT_2022                 (57s)
+  T7_RETURNTOWORKDT_2023                 (56s)
+  T7_INVESTBEGINDT_2018                  (55s)
+  T7_INVESTBEGINDT_2019                  (56s)
+  T7_INVESTBEGINDT_2020                  (54s)
+  T7_INVESTBEGINDT_2021                  (54s)
+  T7_INVESTBEGINDT_2022                  (54s)
+  T7_INVESTBEGINDT_2023                  (54s)
+  T7_allpostclosureandseveritytriggeredfields_2018 (30s)
+  T7_allpostclosureandseveritytriggeredfields_2019 (30s)
+  T7_allpostclosureandseveritytriggeredfields_2020 (30s)
+  T7_allpostclosureandseveritytriggeredfields_2021 (32s)
+  T7_allpostclosureandseveritytriggeredfields_2022 (31s)
+  T7_allpostclosureandseveritytriggeredfields_2023 (31s)
+  T7_unfilterednarrative_2018            (54s)
+  T7_unfilterednarrative_2019            (55s)
+  T7_unfilterednarrative_2020            (55s)
+  T7_unfilterednarrative_2021            (54s)
+  T7_unfilterednarrative_2022            (52s)
+  T7_unfilterednarrative_2023            (53s)
+
+=== S4: native kategorik (2018-2023) ===
+  S4_S_2018                              (67s)
+  S4_S_2019                              (64s)
+  S4_S_2020                              (65s)
+  S4_S_2021                              (68s)
+  S4_S_2022                              (67s)
+  S4_S_2023                              (64s)
+  S4_B_2018                              (66s)
+  S4_B_2019                              (65s)
+  S4_B_2020                              (65s)
+  S4_B_2021                              (67s)
+  S4_B_2022                              (62s)
+  S4_B_2023                              (61s)
+  S4_L_2018                              (29s)
+  S4_L_2019                              (32s)
+  S4_L_2020                              (30s)
+  S4_L_2021                              (28s)
+  S4_L_2022                              (29s)
+  S4_L_2023                              (29s)
+
+=== N: anlatısız model (2018-2023) ===
+  N_S_nonarr_2018                        (18s)
+  N_S_nonarr_2019                        (20s)
+  N_S_nonarr_2020                        (17s)
+  N_S_nonarr_2021                        (17s)
+  N_S_nonarr_2022                        (21s)
+  N_S_nonarr_2023                        (18s)
+
+=== W: kayan pencereler (report-time) ===
+  W_3_2006                               (45s)
+  W_3_2007                               (43s)
+  W_3_2008                               (43s)
+  W_3_2009                               (43s)
+  W_3_2010                               (40s)
+  W_3_2011                               (41s)
+  W_3_2012                               (41s)
+  W_3_2013                               (40s)
+  W_3_2014                               (40s)
+  W_3_2015                               (39s)
+  W_3_2016                               (36s)
+  W_3_2017                               (36s)
+  W_3_2018                               (33s)
+  W_3_2019                               (33s)
+  W_3_2020                               (33s)
+  W_3_2021                               (31s)
+  W_3_2022                               (30s)
+  W_3_2023                               (29s)
+  W_5_2006                               (54s)
+  W_5_2007                               (55s)
+  W_5_2008                               (57s)
+  W_5_2009                               (55s)
+  W_5_2010                               (53s)
+  W_5_2011                               (51s)
+  W_5_2012                               (51s)
+  W_5_2013                               (48s)
+  W_5_2014                               (49s)
+  W_5_2015                               (45s)
+  W_5_2016                               (46s)
+  W_5_2017                               (44s)
+  W_5_2018                               (44s)
+  W_5_2019                               (42s)
+  W_5_2020                               (40s)
+  W_5_2021                               (40s)
+  W_5_2022                               (40s)
+  W_5_2023                               (40s)
+  W_10_2006                              (55s)
+  W_10_2007                              (54s)
+  W_10_2008                              (53s)
+  W_10_2009                              (54s)
+  W_10_2010                              (54s)
+  W_10_2011                              (56s)
+  W_10_2012                              (56s)
+  W_10_2013                              (56s)
+  W_10_2014                              (56s)
+  W_10_2015                              (56s)
+  W_10_2016                              (56s)
+  W_10_2017                              (55s)
+  W_10_2018                              (54s)
+  W_10_2019                              (54s)
+  W_10_2020                              (55s)
+  W_10_2021                              (55s)
+  W_10_2022                              (55s)
+  W_10_2023                              (57s)
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  ÖZET — sözlük yalnızca geçmişten
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+[Sözlük] ilk 100'deki işaretli terim sayısı (yıllar): [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+         tüm 2000 aday içinde işaretli terim (min-max): 20-27
+
+[Tablo 6] 2006-2023
+  Report-time       macroF1=0.4697 SD=0.0143 balAcc=0.4577 severeRecall(ort)=0.0695
+  Triage            macroF1=0.6693 SD=0.0100 balAcc=0.6424 severeRecall(ort)=0.7179
+  Outcome-informed  macroF1=0.9983 SD=0.0014 balAcc=0.9989 severeRecall(ort)=1.0000
+  Triage − Report-time: Δ=+0.1996 95%CI [+0.1929, +0.2064] Wilcoxon p=7.6e-06 d_z=13.2
+  Outcome-informed − Report-time: Δ=+0.5286 95%CI [+0.5218, +0.5349] Wilcoxon p=7.6e-06 d_z=36.3
+  yıllık S: 0.4669, 0.4874, 0.4774, 0.4695, 0.4653, 0.4563, 0.5011, 0.4731, 0.4680, 0.4653, 0.4557, 0.4965, 0.4720, 0.4486, 0.4682, 0.4699, 0.4468, 0.4672
+  yıllık B: 0.6545, 0.6644, 0.6695, 0.6792, 0.6553, 0.6673, 0.6789, 0.6815, 0.6643, 0.6708, 0.6853, 0.6729, 0.6884, 0.6566, 0.6652, 0.6654, 0.6663, 0.6618
+  yıllık L: 0.9983, 0.9946, 0.9972, 0.9978, 0.9978, 0.9981, 0.9992, 0.9986, 0.9998, 0.9989, 0.9999, 0.9982, 0.9995, 0.9970, 0.9998, 0.9997, 0.9983, 0.9966
+
+[Tablo 3 / Şekil 1] report-time, 2006-2023 havuzlanmış
+  L0: P=0.645 R=0.674 F1=0.659 n=44028
+  L1: P=0.509 R=0.326 F1=0.398 n=27004
+  L2: P=0.664 R=0.765 F1=0.711 n=63271
+  L3: P=0.405 R=0.069 F1=0.118 n=2222
+  macro: P=0.556 R=0.458 F1=0.471 n=136525
+  karışıklık (satır=gerçek):
+ [[29653  2779 11515    81]
+ [ 6473  8814 11675    42]
+ [ 9266  5498 48405   102]
+ [  580   231  1258   153]]
+  satır-normalize:
+ [[0.67 0.06 0.26 0.  ]
+ [0.24 0.33 0.43 0.  ]
+ [0.15 0.09 0.77 0.  ]
+ [0.26 0.1  0.57 0.07]]
+
+[Tablo 4] 2018-2023
+  Report-time LightGBM                           macroF1=0.462  P=0.402 R=0.071 F1=0.121 işaret=97 kaçan=509 NNA=2.49 AP=0.199
+  Report-time RF                                 macroF1=0.500  P=0.261 R=0.234 F1=0.246 işaret=491 kaçan=420 NNA=3.84 AP=None
+  Report-time HistGB                             macroF1=0.479  P=0.125 R=0.631 F1=0.209 işaret=2758 kaçan=202 NNA=7.97 AP=None
+  Report-time LogReg                             macroF1=0.354  P=0.054 R=0.651 F1=0.099 işaret=6632 kaçan=191 NNA=18.58 AP=None
+  Triage LightGBM                                macroF1=0.667  P=0.967 R=0.743 F1=0.840 işaret=421 kaçan=141 NNA=1.03 AP=0.89
+  Triage RF                                      macroF1=0.654  P=0.889 R=0.684 F1=0.773 işaret=422 kaçan=173 NNA=1.13 AP=None
+  Triage HistGB                                  macroF1=0.644  P=0.635 R=0.852 F1=0.728 işaret=735 kaçan=81 NNA=1.57 AP=None
+  Triage LogReg                                  macroF1=0.398  P=0.064 R=0.724 F1=0.117 işaret=6213 kaçan=151 NNA=15.65 AP=None
+
+[Tablo 5] 2018-2023
+  Report-time LightGBM no reweighting            macroF1=0.462  P=0.402 R=0.071 F1=0.121 işaret=97 kaçan=509 NNA=2.49 AP=0.199
+  Report-time LightGBM balanced                  macroF1=0.505  P=0.183 R=0.405 F1=0.253 işaret=1210 kaçan=326 NNA=5.45 AP=0.184
+  Report-time LightGBM 1000-term (v19)           macroF1=0.504  P=0.587 R=0.117 F1=0.195 işaret=109 kaçan=484 NNA=1.7 AP=0.308
+  Report-time LightGBM prior-year threshold      macroF1=0.499  P=0.218 R=0.391 F1=0.280 işaret=982 kaçan=334 NNA=4.59 AP=None  eşikler=[0.109, 0.089, 0.086, 0.051, 0.057, 0.061]
+  Report-time LogReg one-hot                     macroF1=0.454  P=0.091 R=0.679 F1=0.161 işaret=4077 kaçan=176 NNA=10.96 AP=0.174
+  Report-time ORACLE eşik: F1=0.287 P=0.238 R=0.359 kaçan=351 NNA=4.19 | prevalans=0.0173
+     recall≥0.25: en yüksek precision=0.264 → NNA≈3.8
+     recall≥0.5: en yüksek precision=0.181 → NNA≈5.5
+     recall≥0.75: en yüksek precision=0.093 → NNA≈10.8
+  Triage LightGBM no reweighting                 macroF1=0.667  P=0.967 R=0.743 F1=0.840 işaret=421 kaçan=141 NNA=1.03 AP=0.89
+  Triage LightGBM balanced                       macroF1=0.677  P=0.879 R=0.781 F1=0.827 işaret=487 kaçan=120 NNA=1.14 AP=0.885
+  Triage LightGBM 1000-term (v19)                macroF1=0.679  P=0.960 R=0.706 F1=0.814 işaret=403 kaçan=161 NNA=1.04 AP=0.886
+  Triage LightGBM prior-year threshold           macroF1=0.667  P=0.923 R=0.766 F1=0.837 işaret=455 kaçan=128 NNA=1.08 AP=None  eşikler=[0.371, 0.274, 0.147, 0.283, 0.068, 0.283]
+  Triage LogReg one-hot                          macroF1=0.600  P=0.445 R=0.867 F1=0.588 işaret=1067 kaçan=73 NNA=2.25 AP=0.824
+  Triage ORACLE eşik: F1=0.848 P=0.952 R=0.765 kaçan=129 NNA=1.05 | prevalans=0.0173
+     recall≥0.25: en yüksek precision=1.000 → NNA≈1.0
+     recall≥0.5: en yüksek precision=1.000 → NNA≈1.0
+     recall≥0.75: en yüksek precision=0.956 → NNA≈1.0
+  Triage amputasyon: ağır 548 (amp 305); yakalanan amp 305, diğer 102/243
+  Triage amputasyon hariç: P=0.879 R=0.420 F1=0.568 işaret=116 kaçan=141 NNA=1.14
+
+[Tablo 7] 2018-2023 (macroF1 ve ağır duyarlılık = yıllık ortalama)
+  Report-time baseline                               macroF1=0.462  Δ=  –    severeRecall=0.071
+  + DAYS_LOST                                        macroF1=0.709  Δ=+0.247  severeRecall=0.250
+  + SCHEDULE_CHARGE                                  macroF1=0.685  Δ=+0.223  severeRecall=1.000
+  + DAYS_RESTRICT                                    macroF1=0.633  Δ=+0.171  severeRecall=0.188
+  + TRANS_TERM                                       macroF1=0.566  Δ=+0.104  severeRecall=0.381
+  + IMMED_NOTIFY (both forms)                        macroF1=0.563  Δ=+0.101  severeRecall=0.371
+  + RETURN_TO_WORK_DT                                macroF1=0.528  Δ=+0.066  severeRecall=0.263
+  + INVEST_BEGIN_DT                                  macroF1=0.480  Δ=+0.018  severeRecall=0.112
+  + clinical (triage) fields                         macroF1=0.667  Δ=+0.205  severeRecall=0.741
+  + all post-closure and severity-triggered fields   macroF1=0.998  Δ=+0.536  severeRecall=1.000
+  + unfiltered narrative                             macroF1=0.462  Δ=+0.000  severeRecall=0.071
+
+[Tablo S4] 2018-2023 havuzlanmış
+  S integer  macroF1(havuz)=0.4624 balAcc=0.4516 L3 P=0.402 R=0.071 F1=0.121
+  S native   macroF1(havuz)=0.4597 balAcc=0.4500 L3 P=0.429 R=0.060 F1=0.106
+  B integer  macroF1(havuz)=0.6679 balAcc=0.6435 L3 P=0.967 R=0.743 F1=0.840
+  B native   macroF1(havuz)=0.6612 balAcc=0.6357 L3 P=0.954 R=0.714 F1=0.816
+  L integer  macroF1(havuz)=0.9985 balAcc=0.9988 L3 P=0.996 R=1.000 F1=0.998
+  L native   macroF1(havuz)=0.9979 balAcc=0.9986 L3 P=0.995 R=1.000 F1=0.997
+
+[Anlatı katkısı] report-time 2018-2023: anlatılı 0.4621 | anlatısız 0.4168 | fark +0.0453
+
+[Kayan pencereler] report-time 2006-2023, genişleyen pencereye karşı (pencere − genişleyen)
+  rolling-3: ort 0.4579 | Δ=-0.0118 95%CI [-0.0184, -0.0060] Wilcoxon p=2.3e-03 d_z=-0.8
+  rolling-5: ort 0.4684 | Δ=-0.0014 95%CI [-0.0083, +0.0046] Wilcoxon p=6.4e-01 d_z=-0.1
+  rolling-10: ort 0.4742 | Δ=+0.0044 95%CI [-0.0003, +0.0094] Wilcoxon p=1.0e-01 d_z=0.4
+
+[Kayma dedektörleri]
+  S: hata 0.362→0.376, on yılda +2.08 puan, doğrusal R²=0.63
+     alarmlar: {'ADWIN': [2019], 'DDM': [], 'EDDM': [2006], 'HDDM-A': [2010, 2018], 'HDDM-W': [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], 'Page-Hinkley': [2006, 2007, 2008, 2011, 2012, 2013, 2015, 2017, 2020, 2023], 'KSWIN': [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023]}
+     ≥2 dedektörün aynı yıl alarm verdiği yıllar: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023]
+     3 permütasyonda aynı kalan: {'ADWIN': 3, 'DDM': 1, 'EDDM': 3, 'HDDM-A': 0, 'HDDM-W': 3, 'Page-Hinkley': 0, 'KSWIN': 0}
+     ADWIN delta taraması: {0.0005: [2019], 0.001: [2019], 0.002: [2019], 0.005: [2019], 0.01: [2018]}
+  B: hata 0.328→0.341, on yılda +1.78 puan, doğrusal R²=0.57
+     alarmlar: {'ADWIN': [2020], 'DDM': [], 'EDDM': [], 'HDDM-A': [2006, 2019, 2020], 'HDDM-W': [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], 'Page-Hinkley': [2006, 2007, 2008, 2011, 2012, 2013, 2014, 2016, 2019, 2021, 2022], 'KSWIN': [2006, 2008, 2009, 2011, 2015, 2017, 2021, 2023]}
+     ≥2 dedektörün aynı yıl alarm verdiği yıllar: [2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023]
+     3 permütasyonda aynı kalan: {'ADWIN': 3, 'DDM': 2, 'EDDM': 0, 'HDDM-A': 0, 'HDDM-W': 2, 'Page-Hinkley': 0, 'KSWIN': 0}
+     ADWIN delta taraması: {0.0005: [2020], 0.001: [2020], 0.002: [2020], 0.005: [2020], 0.01: [2019]}
+  L: hata 0.002→0.005, on yılda -0.01 puan, doğrusal R²=0.00
+     alarmlar: {'ADWIN': [2016, 2023], 'DDM': [2006, 2007, 2023], 'EDDM': [2007, 2009, 2012, 2022, 2023], 'HDDM-A': [], 'HDDM-W': [], 'Page-Hinkley': [], 'KSWIN': []}
+     ≥2 dedektörün aynı yıl alarm verdiği yıllar: [2007, 2023]
+     3 permütasyonda aynı kalan: {'ADWIN': 2, 'DDM': 1, 'EDDM': 0, 'HDDM-A': 3, 'HDDM-W': 3, 'Page-Hinkley': 3, 'KSWIN': 3}
+     ADWIN delta taraması: {0.0005: [2017, 2023], 0.001: [2016, 2023], 0.002: [2016, 2023], 0.005: [2016, 2023], 0.01: [2015, 2023]}
+
+✅ Bitti. Çıktının TAMAMINI gönder. Kayıtlar: /content/drive/MyDrive/MSHA_AEJ_v7/pastvocab_v21/ckpt

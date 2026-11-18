@@ -1,0 +1,77 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+[v19-sensitivity] → /content/drive/MyDrive/MSHA_AEJ_v7/sensitivity_v19
+
+=== S: 28 yapısal alan, 100 narratif terim ===
+  D eşikleri: [0.069, 0.086, 0.087, 0.096, 0.085, 0.079]
+
+=== B: 33 yapısal alan, 100 narratif terim ===
+  B_balanced   2019  macroF1=0.666  (170s)
+  B_balanced   2020  macroF1=0.672  (59s)
+  B_balanced   2021  macroF1=0.668  (58s)
+  B_balanced   2022  macroF1=0.675  (56s)
+  B_balanced   2023  macroF1=0.688  (59s)
+  C_tfidf1000  2018  macroF1=0.698  (260s)
+  C_tfidf1000  2019  macroF1=0.670  (257s)
+  C_tfidf1000  2020  macroF1=0.680  (257s)
+  C_tfidf1000  2021  macroF1=0.665  (264s)
+  C_tfidf1000  2022  macroF1=0.676  (259s)
+  C_tfidf1000  2023  macroF1=0.686  (264s)
+  D_prev_thr   2018  eşik=0.191 (y-1 F1=0.867)  (56s)
+  D_prev_thr   2019  eşik=0.404 (y-1 F1=0.895)  (57s)
+  D_prev_thr   2020  eşik=0.190 (y-1 F1=0.822)  (58s)
+  D_prev_thr   2021  eşik=0.287 (y-1 F1=0.814)  (57s)
+  D_prev_thr   2022  eşik=0.055 (y-1 F1=0.865)  (59s)
+  D_prev_thr   2023  eşik=0.209 (y-1 F1=0.845)  (58s)
+  D eşikleri: [0.191, 0.404, 0.19, 0.287, 0.055, 0.209]
+  E_logreg_oh  2018  macroF1=0.617  (29s)
+  E_logreg_oh  2019  macroF1=0.592  (28s)
+  E_logreg_oh  2020  macroF1=0.599  (30s)
+  E_logreg_oh  2021  macroF1=0.583  (27s)
+  E_logreg_oh  2022  macroF1=0.596  (31s)
+  E_logreg_oh  2023  macroF1=0.612  (28s)
+
+==============================================================================================================
+  ÖZET (2018-2023; macro F1 = yıllık ortalama, L3 metrikleri havuzlanmış)
+==============================================================================================================
+        set               variant  macro_F1_mean  L3_prec  L3_rec  L3_F1  flagged  missed     NNA  L3_AP  n_severe
+Report-time                A_base         0.4608   0.4270  0.0693 0.1193       89     510  2.3421 0.2010       548
+Report-time            B_balanced         0.5079   0.1919  0.4215 0.2637     1204     317  5.2121 0.1884       548
+Report-time           C_tfidf1000         0.5043   0.5872  0.1168 0.1948      109     484  1.7031 0.3082       548
+Report-time D_prev_year_threshold         0.4975   0.2226  0.3522 0.2728      867     355  4.4922    NaN       548
+Report-time       E_logreg_onehot         0.4547   0.0913  0.6770 0.1609     4064     177 10.9542 0.1738       548
+     Triage                A_base         0.6679   0.9662  0.7299 0.8316      414     148  1.0350 0.8890       548
+     Triage            B_balanced         0.6772   0.8819  0.7901 0.8335      491     115  1.1339 0.8844       548
+     Triage           C_tfidf1000         0.6791   0.9603  0.7062 0.8139      403     161  1.0413 0.8861       548
+     Triage D_prev_year_threshold         0.6690   0.9154  0.7701 0.8365      461     126  1.0924    NaN       548
+     Triage       E_logreg_onehot         0.6001   0.4449  0.8613 0.5867     1061      76  2.2479 0.8237       548
+
+  Report-time: AP=0.201 | prevalans=0.0173 | ORACLE eşik (havuzlanmış, iyimser): F1=0.279 P=0.225 R=0.365
+     recall≥0.25 için en yüksek precision = 0.269  → NNA ≈ 3.7
+     recall≥0.50 için en yüksek precision = 0.165  → NNA ≈ 6.0
+     recall≥0.75 için en yüksek precision = 0.088  → NNA ≈ 11.3
+
+  Triage: AP=0.889 | prevalans=0.0173 | ORACLE eşik (havuzlanmış, iyimser): F1=0.844 P=0.932 R=0.772
+     recall≥0.25 için en yüksek precision = 1.000  → NNA ≈ 1.0
+     recall≥0.50 için en yüksek precision = 1.000  → NNA ≈ 1.0
+     recall≥0.75 için en yüksek precision = 0.958  → NNA ≈ 1.0
+
+================================================================================
+  TRIAGE (A_base) — amputasyon kodu içi/dışı
+================================================================================
+  ağır vaka: toplam 548, amputasyon 305, diğer 243
+  yakalanan: amputasyon 305/305, diğer 95/243
+  amputasyon kayıtları çıkarıldığında L3: P=0.872 R=0.391 F1=0.540 işaret=109 doğru=95 kaçan=148
+
+================================================================================
+  TABLO 5 (gerçek yıllık seriler)
+================================================================================
+  Report-time   mean=0.4693 SD=0.0122 n=18
+  Triage        mean=0.6695 SD=0.0085 n=18
+  Post-closure  mean=0.9983 SD=0.0015 n=18
+  Triage − Report-time: Δ=0.2001 95% CI [0.1943, 0.2057] Wilcoxon p=7.6e-06
+  Post-closure − Report-time: Δ=0.5290 95% CI [0.5236, 0.5343] Wilcoxon p=7.6e-06
+  yıllık S: 0.4653, 0.4838, 0.4777, 0.4714, 0.4756, 0.4568, 0.4936, 0.4643, 0.4668, 0.4764, 0.4629, 0.4886, 0.4778, 0.4485, 0.4604, 0.4666, 0.4559, 0.4555
+  yıllık B: 0.6572, 0.6642, 0.6739, 0.6816, 0.6634, 0.6658, 0.6726, 0.6844, 0.6598, 0.6698, 0.6795, 0.6704, 0.6843, 0.6587, 0.6652, 0.6683, 0.6666, 0.6644
+  yıllık L: 0.9982, 0.9945, 0.9972, 0.9978, 0.9978, 0.9972, 0.9993, 0.9987, 0.9998, 0.9989, 0.9999, 0.9998, 0.9995, 0.9970, 0.9998, 0.9994, 0.9983, 0.9964
+
+✅ Bitti. Çıktının TAMAMINI kopyalayıp gönder. Şekil: /content/drive/MyDrive/MSHA_AEJ_v7/sensitivity_v19/Figure_PR_severe.png

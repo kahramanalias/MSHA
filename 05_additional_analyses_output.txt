@@ -1,0 +1,137 @@
+Mounted at /content/drive
+[v22-reviewer] → /content/drive/MyDrive/MSHA_AEJ_v7/reviewer_v22/ckpt
+
+=== C: 1000 terim + önceki yıl eşiği ===
+  C_S_t1000_prevthr_2018             (323s)
+  C_S_t1000_prevthr_2019             (273s)
+  C_S_t1000_prevthr_2020             (268s)
+  C_S_t1000_prevthr_2021             (271s)
+  C_S_t1000_prevthr_2022             (279s)
+  C_S_t1000_prevthr_2023             (269s)
+  C_B_t1000_prevthr_2018             (252s)
+  C_B_t1000_prevthr_2019             (248s)
+  C_B_t1000_prevthr_2020             (250s)
+  C_B_t1000_prevthr_2021             (248s)
+  C_B_t1000_prevthr_2022             (254s)
+  C_B_t1000_prevthr_2023             (254s)
+
+=== N: yalnız yapısal alanlar ===
+  N_S_nonarr_prevthr_2018            (24s)
+  N_S_nonarr_prevthr_2019            (20s)
+  N_S_nonarr_prevthr_2020            (24s)
+  N_S_nonarr_prevthr_2021            (20s)
+  N_S_nonarr_prevthr_2022            (22s)
+  N_S_nonarr_prevthr_2023            (20s)
+
+=== D: P(ağır | değer) taraması, report-time alanları ===
+
+  [2000-2017 (eğitim dönemi)] kayıt=185,645 ağır oranı=0.0157 (değer başına en az 30 kayıt)
+              field  n_values_ge_min  max_p                             max_value  max_n  n_p_eq_1  n_p_ge_0.5
+   ACCIDENT_TYPE_CD               37  0.957                                    41     47         0           2
+      ACCIDENT_TYPE               37  0.957                              Drowning     47         0           2
+      ACCIDENT_TIME              290  0.816                                1502.0     38         0           1
+     CLASSIFICATION               19  0.264  IGNITION OR EXPLOSION OF GAS OR DUST    277         0           0
+  CLASSIFICATION_CD               19  0.264                                    14    277         0           0
+           ACTIVITY               86  0.136                   Barge, Boat, Dredge    110         0           0
+        ACTIVITY_CD               86  0.136                                   046    110         0           0
+       EQUIP_MFR_CD              101  0.133                                  1932     45         0           0
+     EQUIP_MFR_NAME               84  0.125                    Nordberg (Rexnord)     56         0           0
+      INJURY_SOURCE              110  0.119                                 WATER    387         0           0
+   INJURY_SOURCE_CD              110  0.119                                   126    387         0           0
+     EQUIP_MODEL_NO              137  0.114                         Roof Ranger 2     35         0           0
+          TOT_EXPER              736  0.088                                  5.88     34         0           0
+         MINE_EXPER              676  0.086                                  5.88     35         0           0
+    MINING_EQUIP_CD               59  0.081                                    41     99         0           0
+          JOB_EXPER              592  0.081                                   5.9     37         0           0
+       MINING_EQUIP               59  0.081  Mine car, Timber truck, Nipper truck     99         0           0
+         OCCUPATION              116  0.071 Auger operator, Auger Crew supervisor     70         0           0
+      OCCUPATION_CD              144  0.071                                   370     70         0           0
+   SHIFT_BEGIN_TIME               82  0.067                                 655.0     30         0           0
+UG_MINING_METHOD_CD                8  0.031                                    07    287         0           0
+   UG_MINING_METHOD                8  0.031                                Caving    287         0           0
+         SUBUNIT_CD               10  0.030                                     4    334         0           0
+            SUBUNIT               10  0.030                                 AUGER    334         0           0
+      FIPS_STATE_CD               51  0.029                                    44     69         0           0
+     UG_LOCATION_CD                9  0.026                                    04   6898         0           0
+        UG_LOCATION                9  0.026                          INTERSECTION   6898         0           0
+     COAL_METAL_IND                2  0.016                                     C  81025         0           0
+
+  [2018-2023 (test penceresi)] kayıt=31,660 ağır oranı=0.0173 (değer başına en az 30 kayıt)
+              field  n_values_ge_min  max_p                                max_value  max_n  n_p_eq_1  n_p_ge_0.5
+        ACTIVITY_CD               60  0.270                                      050     37         0           0
+           ACTIVITY               60  0.270                            Conveyor belt     37         0           0
+   ACCIDENT_TYPE_CD               32  0.186                                       20    484         0           0
+      ACCIDENT_TYPE               32  0.186 Caught in, under or between running or m    484         0           0
+   INJURY_SOURCE_CD               89  0.155                                      126     71         0           0
+      INJURY_SOURCE               89  0.155                                    WATER     71         0           0
+    MINING_EQUIP_CD               41  0.137                                       40    124         0           0
+       MINING_EQUIP               41  0.137 Milling machinery, Block press, Ballast     124         0           0
+      ACCIDENT_TIME              164  0.128                                   1005.0     39         0           0
+     EQUIP_MFR_NAME               34  0.095                             Freightliner     42         0           0
+       EQUIP_MFR_CD               34  0.095                                      133     42         0           0
+          JOB_EXPER              168  0.091                                     29.0     33         0           0
+  CLASSIFICATION_CD               15  0.080                                       01    163         0           0
+     CLASSIFICATION               15  0.080                               ELECTRICAL    163         0           0
+         OCCUPATION               81  0.075                         Driller operator     40         0           0
+      OCCUPATION_CD               90  0.075                                      034     40         0           0
+          TOT_EXPER              178  0.075                                     42.0     40         0           0
+         MINE_EXPER              174  0.070                                     3.04     43         0           0
+     EQUIP_MODEL_NO               13  0.066                                  Unknown    106         0           0
+         SUBUNIT_CD                8  0.057                                        4     35         0           0
+            SUBUNIT                8  0.057                                    AUGER     35         0           0
+   SHIFT_BEGIN_TIME               46  0.050                                   1300.0     80         0           0
+      FIPS_STATE_CD               49  0.047                                       50    107         0           0
+UG_MINING_METHOD_CD                6  0.032                                       06     31         0           0
+   UG_MINING_METHOD                6  0.032                                     Hand     31         0           0
+     UG_LOCATION_CD                7  0.028                                       04   1198         0           0
+        UG_LOCATION                7  0.028                             INTERSECTION   1198         0           0
+     COAL_METAL_IND                2  0.018                                        M  20563         0           0
+
+  [2000-2023 tümü] kayıt=217,305 ağır oranı=0.0159 (değer başına en az 30 kayıt)
+              field  n_values_ge_min  max_p                                max_value  max_n  n_p_eq_1  n_p_ge_0.5
+   ACCIDENT_TYPE_CD               38  0.918                                       41     61         0           2
+      ACCIDENT_TYPE               38  0.918                                 Drowning     61         0           2
+      ACCIDENT_TIME              292  0.738                                   1502.0     42         0           1
+     CLASSIFICATION               19  0.252     IGNITION OR EXPLOSION OF GAS OR DUST    298         0           0
+  CLASSIFICATION_CD               19  0.252                                       14    298         0           0
+           ACTIVITY               86  0.150                      Barge, Boat, Dredge    127         0           0
+        ACTIVITY_CD               86  0.150                                      046    127         0           0
+       EQUIP_MFR_CD              110  0.146                                      157     48         0           0
+     EQUIP_MFR_NAME               93  0.146                                   Getman     48         0           0
+      INJURY_SOURCE              112  0.124                                    WATER    458         0           0
+   INJURY_SOURCE_CD              112  0.124                                      126    458         0           0
+          JOB_EXPER              664  0.100                                     8.35     30         0           0
+     EQUIP_MODEL_NO              150  0.097                                     777F     31         0           0
+         MINE_EXPER              765  0.094                                      9.4     32         0           0
+          TOT_EXPER              854  0.091                                    13.02     33         0           0
+    MINING_EQUIP_CD               60  0.086                                       11     35         0           0
+       MINING_EQUIP               60  0.086 Classifier, Screw classifer, Spirial cla     35         0           0
+         OCCUPATION              128  0.068    Auger operator, Auger Crew supervisor     73         0           0
+      OCCUPATION_CD              159  0.068                                      370     73         0           0
+   SHIFT_BEGIN_TIME               87  0.067                                    705.0     30         0           0
+      FIPS_STATE_CD               51  0.038                                       44     79         0           0
+         SUBUNIT_CD               10  0.033                                        4    369         0           0
+            SUBUNIT               10  0.033                                    AUGER    369         0           0
+UG_MINING_METHOD_CD                8  0.029                                       07    307         0           0
+   UG_MINING_METHOD                8  0.029                                   Caving    307         0           0
+     UG_LOCATION_CD                9  0.026                                       04   8096         0           0
+        UG_LOCATION                9  0.026                             INTERSECTION   8096         0           0
+     COAL_METAL_IND                2  0.016                                        C  92122         0           0
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  ÖZET v22 (2018-2023; macro F1 = yıllık ortalama, L3 havuzlanmış)
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  Report-time 1000-term (v19, referans)        macroF1=0.504  P=0.587 R=0.117 F1=0.195 işaret=109 kaçan=484 NNA=1.70 AP=0.308
+  Report-time 1000-term + prior-year threshold macroF1=0.541  P=0.319 R=0.389 F1=0.350 işaret=668 kaçan=335 NNA=3.14 AP=0.308  eşikler=[0.063, 0.099, 0.107, 0.074, 0.095, 0.103]
+  Report-time 1000-term                        ORACLE F1=0.363 P=0.341 R=0.389 işaret≈624 kaçan=335 NNA=2.93
+  Assessment 1000-term (v19, referans)         macroF1=0.679  P=0.960 R=0.706 F1=0.814 işaret=403 kaçan=161 NNA=1.04 AP=0.886
+  Assessment 1000-term + prior-year threshold  macroF1=0.683  P=0.922 R=0.752 F1=0.828 işaret=447 kaçan=136 NNA=1.08 AP=0.886  eşikler=[0.285, 0.435, 0.229, 0.056, 0.107, 0.183]
+  Assessment 1000-term                         ORACLE F1=0.835 P=0.921 R=0.765 işaret≈455 kaçan=129 NNA=1.09
+  Report-time structured only (no narrative)   macroF1=0.417  P=0.426 R=0.047 F1=0.085 işaret=61 kaçan=522 NNA=2.35 AP=0.145
+  Report-time structured only + prior-year thr macroF1=0.447  P=0.181 R=0.263 F1=0.214 işaret=795 kaçan=404 NNA=5.52 AP=0.145  eşikler=[0.179, 0.074, 0.058, 0.111, 0.1, 0.105]
+  Report-time structured only                  ORACLE F1=0.223 P=0.208 R=0.241 işaret≈636 kaçan=416 NNA=4.82
+
+[D] P(ağır|değer)=1 olan değer sayısı (n≥30): eğitim 0 | test 0 | tümü 0
+    en yüksek P (tümü): {'field': 'ACCIDENT_TYPE_CD', 'max_value': '41', 'max_n': 61, 'max_p': 0.918}
+
+✅ Bitti. Çıktının TAMAMINI gönder. Kayıtlar: /content/drive/MyDrive/MSHA_AEJ_v7/reviewer_v22/ckpt

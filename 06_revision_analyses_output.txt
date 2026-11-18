@@ -1,0 +1,1598 @@
+Mounted at /content/drive
+[v24-revision] → /content/drive/MyDrive/MSHA_AEJ_v7/revision_v24
+  kayıt 217,305 | yapısal alan 28
+
+=== N: yalnız yapısal alanlar (2006-2017 yeni; 2018-2023 v21) ===
+  N_2006                                   (13s)
+  N_2007                                   (12s)
+  N_2008                                   (12s)
+  N_2009                                   (12s)
+  N_2010                                   (12s)
+  N_2011                                   (12s)
+  N_2012                                   (13s)
+  N_2013                                   (12s)
+  N_2014                                   (11s)
+  N_2015                                   (12s)
+  N_2016                                   (13s)
+  N_2017                                   (11s)
+
+=== G: boşluklu eğitim (M_t: YEAR < t; t+1 ve t+2 yıllarını tahmin eder) ===
+  G_N_2004                                 (11s)
+  G_N_2005                                 (11s)
+  G_N_2006                                 (12s)
+  G_N_2007                                 (13s)
+  G_N_2008                                 (13s)
+  G_N_2009                                 (13s)
+  G_N_2010                                 (13s)
+  G_N_2011                                 (13s)
+  G_N_2012                                 (13s)
+  G_N_2013                                 (13s)
+  G_N_2014                                 (13s)
+  G_N_2015                                 (12s)
+  G_N_2016                                 (12s)
+  G_N_2017                                 (12s)
+  G_N_2018                                 (12s)
+  G_N_2019                                 (12s)
+  G_N_2020                                 (12s)
+  G_N_2021                                 (12s)
+  G_N_2022                                 (12s)
+  vocab100_2004                            (4s)
+  G_S_2004                                 (34s)
+  vocab100_2005                            (5s)
+  G_S_2005                                 (39s)
+  G_S_2006                                 (36s)
+  G_S_2007                                 (36s)
+  G_S_2008                                 (35s)
+  G_S_2009                                 (33s)
+  G_S_2010                                 (34s)
+  G_S_2011                                 (33s)
+  G_S_2012                                 (35s)
+  G_S_2013                                 (37s)
+  G_S_2014                                 (35s)
+  G_S_2015                                 (34s)
+  G_S_2016                                 (35s)
+  G_S_2017                                 (34s)
+  G_S_2018                                 (34s)
+  G_S_2019                                 (34s)
+  G_S_2020                                 (33s)
+  G_S_2021                                 (34s)
+  G_S_2022                                 (33s)
+
+=== D: belgelenmiş işe-dönüş/kapanış tarihi test yılından önce olan kayıtlarla eğitim ===
+  D_N_2006                                 (10s)
+  D_N_2007                                 (12s)
+  D_N_2008                                 (12s)
+  D_N_2009                                 (12s)
+  D_N_2010                                 (12s)
+  D_N_2011                                 (11s)
+  D_N_2012                                 (12s)
+  D_N_2013                                 (12s)
+  D_N_2014                                 (12s)
+  D_N_2015                                 (10s)
+  D_N_2016                                 (11s)
+  D_N_2017                                 (12s)
+  D_N_2018                                 (12s)
+  D_N_2019                                 (12s)
+  D_N_2020                                 (12s)
+  D_N_2021                                 (12s)
+  D_N_2022                                 (12s)
+  D_N_2023                                 (12s)
+  D_S_2006                                 (33s)
+  D_S_2007                                 (34s)
+  D_S_2008                                 (32s)
+  D_S_2009                                 (32s)
+  D_S_2010                                 (32s)
+  D_S_2011                                 (33s)
+  D_S_2012                                 (32s)
+  D_S_2013                                 (33s)
+  D_S_2014                                 (33s)
+  D_S_2015                                 (33s)
+  D_S_2016                                 (35s)
+  D_S_2017                                 (31s)
+  D_S_2018                                 (34s)
+  D_S_2019                                 (32s)
+  D_S_2020                                 (38s)
+  D_S_2021                                 (35s)
+  D_S_2022                                 (34s)
+  D_S_2023                                 (35s)
+
+=== T5N: yalnız yapısal alanlar, dengeli ağırlık ve one-hot lojistik (2018-2023) ===
+  T5N_balanced_2018                        (12s)
+  T5N_logregoh_2018                        (10s)
+  T5N_balanced_2019                        (13s)
+  T5N_logregoh_2019                        (8s)
+  T5N_balanced_2020                        (13s)
+  T5N_logregoh_2020                        (9s)
+  T5N_balanced_2021                        (13s)
+  T5N_logregoh_2021                        (10s)
+  T5N_balanced_2022                        (13s)
+  T5N_logregoh_2022                        (8s)
+  T5N_balanced_2023                        (13s)
+  T5N_logregoh_2023                        (10s)
+
+=== L: öğreniciler, yalnız yapısal alanlar (2018-2023) ===
+  T4N_RF_2018                              (206s)
+  T4N_RF_2019                              (206s)
+  T4N_RF_2020                              (199s)
+  T4N_RF_2021                              (195s)
+  T4N_RF_2022                              (203s)
+  T4N_RF_2023                              (197s)
+  T4N_HistGB_2018                          (5s)
+  T4N_HistGB_2019                          (4s)
+  T4N_HistGB_2020                          (4s)
+  T4N_HistGB_2021                          (6s)
+  T4N_HistGB_2022                          (5s)
+  T4N_HistGB_2023                          (5s)
+  T4N_LogReg_2018                          (52s)
+  T4N_LogReg_2019                          (50s)
+  T4N_LogReg_2020                          (51s)
+  T4N_LogReg_2021                          (52s)
+  T4N_LogReg_2022                          (52s)
+  T4N_LogReg_2023                          (52s)
+
+=== H: hiperparametre duyarlılığı (2017-2023; seçim önceki yıldan) ===
+  H_N_c1_leaves15_2017                     (9s)
+  H_N_c1_leaves15_2018                     (7s)
+  H_N_c1_leaves15_2019                     (9s)
+  H_N_c1_leaves15_2020                     (6s)
+  H_N_c1_leaves15_2021                     (8s)
+  H_N_c1_leaves15_2022                     (9s)
+  H_N_c1_leaves15_2023                     (7s)
+  H_N_c2_leaves255_2017                    (24s)
+  H_N_c2_leaves255_2018                    (24s)
+  H_N_c2_leaves255_2019                    (24s)
+  H_N_c2_leaves255_2020                    (22s)
+  H_N_c2_leaves255_2021                    (22s)
+  H_N_c2_leaves255_2022                    (24s)
+  H_N_c2_leaves255_2023                    (24s)
+  H_N_c3_600trees_lr0.025_2017             (23s)
+  H_N_c3_600trees_lr0.025_2018             (21s)
+  H_N_c3_600trees_lr0.025_2019             (23s)
+  H_N_c3_600trees_lr0.025_2020             (23s)
+  H_N_c3_600trees_lr0.025_2021             (20s)
+  H_N_c3_600trees_lr0.025_2022             (23s)
+  H_N_c3_600trees_lr0.025_2023             (23s)
+  H_N_c4_150trees_lr0.1_2017               (5s)
+  H_N_c4_150trees_lr0.1_2018               (8s)
+  H_N_c4_150trees_lr0.1_2019               (5s)
+  H_N_c4_150trees_lr0.1_2020               (7s)
+  H_N_c4_150trees_lr0.1_2021               (5s)
+  H_N_c4_150trees_lr0.1_2022               (8s)
+  H_N_c4_150trees_lr0.1_2023               (5s)
+  H_N_c5_minchild100_2017                  (13s)
+  H_N_c5_minchild100_2018                  (12s)
+  H_N_c5_minchild100_2019                  (13s)
+  H_N_c5_minchild100_2020                  (13s)
+  H_N_c5_minchild100_2021                  (13s)
+  H_N_c5_minchild100_2022                  (13s)
+  H_N_c5_minchild100_2023                  (13s)
+  H_N_c6_rowbag0.8_col0.5_2017             (11s)
+  H_N_c6_rowbag0.8_col0.5_2018             (12s)
+  H_N_c6_rowbag0.8_col0.5_2019             (9s)
+  H_N_c6_rowbag0.8_col0.5_2020             (11s)
+  H_N_c6_rowbag0.8_col0.5_2021             (12s)
+  H_N_c6_rowbag0.8_col0.5_2022             (12s)
+  H_N_c6_rowbag0.8_col0.5_2023             (11s)
+  H_N_c7_reg1.0_2017                       (13s)
+  H_N_c7_reg1.0_2018                       (13s)
+  H_N_c7_reg1.0_2019                       (12s)
+  H_N_c7_reg1.0_2020                       (12s)
+  H_N_c7_reg1.0_2021                       (12s)
+  H_N_c7_reg1.0_2022                       (11s)
+  H_N_c7_reg1.0_2023                       (11s)
+  H_S_c1_leaves15_2017                     (19s)
+  H_S_c1_leaves15_2018                     (18s)
+  H_S_c1_leaves15_2019                     (19s)
+  H_S_c1_leaves15_2020                     (18s)
+  H_S_c1_leaves15_2021                     (20s)
+  H_S_c1_leaves15_2022                     (17s)
+  H_S_c1_leaves15_2023                     (17s)
+  H_S_c2_leaves255_2017                    (83s)
+  H_S_c2_leaves255_2018                    (95s)
+  H_S_c2_leaves255_2019                    (90s)
+  H_S_c2_leaves255_2020                    (89s)
+  H_S_c2_leaves255_2021                    (84s)
+  H_S_c2_leaves255_2022                    (82s)
+  H_S_c2_leaves255_2023                    (84s)
+  H_S_c3_600trees_lr0.025_2017             (63s)
+  H_S_c3_600trees_lr0.025_2018             (66s)
+  H_S_c3_600trees_lr0.025_2019             (67s)
+  H_S_c3_600trees_lr0.025_2020             (73s)
+  H_S_c3_600trees_lr0.025_2021             (65s)
+  H_S_c3_600trees_lr0.025_2022             (65s)
+  H_S_c3_600trees_lr0.025_2023             (66s)
+  H_S_c4_150trees_lr0.1_2017               (21s)
+  H_S_c4_150trees_lr0.1_2018               (19s)
+  H_S_c4_150trees_lr0.1_2019               (20s)
+  H_S_c4_150trees_lr0.1_2020               (19s)
+  H_S_c4_150trees_lr0.1_2021               (20s)
+  H_S_c4_150trees_lr0.1_2022               (19s)
+  H_S_c4_150trees_lr0.1_2023               (20s)
+  H_S_c5_minchild100_2017                  (37s)
+  H_S_c5_minchild100_2018                  (36s)
+  H_S_c5_minchild100_2019                  (35s)
+  H_S_c5_minchild100_2020                  (35s)
+  H_S_c5_minchild100_2021                  (35s)
+  H_S_c5_minchild100_2022                  (34s)
+  H_S_c5_minchild100_2023                  (36s)
+  H_S_c6_rowbag0.8_col0.5_2017             (38s)
+  H_S_c6_rowbag0.8_col0.5_2018             (38s)
+  H_S_c6_rowbag0.8_col0.5_2019             (38s)
+  H_S_c6_rowbag0.8_col0.5_2020             (38s)
+  H_S_c6_rowbag0.8_col0.5_2021             (36s)
+  H_S_c6_rowbag0.8_col0.5_2022             (37s)
+  H_S_c6_rowbag0.8_col0.5_2023             (37s)
+  H_S_c7_reg1.0_2017                       (36s)
+  H_S_c7_reg1.0_2018                       (38s)
+  H_S_c7_reg1.0_2019                       (37s)
+  H_S_c7_reg1.0_2020                       (36s)
+  H_S_c7_reg1.0_2021                       (36s)
+  H_S_c7_reg1.0_2022                       (34s)
+  H_S_c7_reg1.0_2023                       (37s)
+
+=== V: 1000 terimlik sözlük ===
+  rank1000_2017                            (6s)
+  T1000_2017                               (202s)
+  T1000E_2017                              (177s)
+  rank1000_2018                            (6s)
+  T1000E_2018                              (173s)
+  rank1000_2019                            (5s)
+  T1000E_2019                              (182s)
+  rank1000_2020                            (5s)
+  T1000E_2020                              (169s)
+  rank1000_2021                            (6s)
+  T1000E_2021                              (175s)
+  rank1000_2022                            (6s)
+  T1000E_2022                              (181s)
+  rank1000_2023                            (6s)
+  T1000E_2023                              (188s)
+  rank2000_2017                            (14s)
+  T100E_2017                               (47s)
+  rank2000_2018                            (14s)
+  T100E_2018                               (47s)
+  rank2000_2019                            (15s)
+  T100E_2019                               (48s)
+  rank2000_2020                            (17s)
+  T100E_2020                               (50s)
+  rank2000_2021                            (15s)
+  T100E_2021                               (48s)
+  rank2000_2022                            (14s)
+  T100E_2022                               (47s)
+  rank2000_2023                            (17s)
+  T100E_2023                               (51s)
+
+=== R: ham veri ===
+  kaynak: /content/drive/MyDrive/MSHA_pipeline/ckpt/s1_data.pkl | 259,443 satır
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+  ÖZET v24
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+[1] Senaryolar 2006-2023 (yıllık ortalamalar)
+  Notification (structured only)   macroF1=0.4225 SD=0.0103 balAcc=0.4155 sevRecall(annual mean)=0.0464 | pooled L3: P=0.349 R=0.045 F1=0.079 tp=99/2222 AP=0.126
+  Structured + narrative           macroF1=0.4697 SD=0.0143 balAcc=0.4577 sevRecall(annual mean)=0.0695 | pooled L3: P=0.405 R=0.069 F1=0.118 tp=153/2222 AP=0.183
+  Assessment                       macroF1=0.6693 SD=0.0100 balAcc=0.6424 sevRecall(annual mean)=0.7179 | pooled L3: P=0.946 R=0.710 F1=0.811 tp=1577/2222 AP=0.874
+  Outcome-informed                 macroF1=0.9983 SD=0.0014 balAcc=0.9989 sevRecall(annual mean)=1.0000 | pooled L3: P=0.993 R=1.000 F1=0.996 tp=2222/2222 AP=1.000
+  S − N: Δ=+0.0472 95%CI [+0.0423, +0.0521] Wilcoxon p=7.6e-06
+  B − N: Δ=+0.2468 95%CI [+0.2418, +0.2513] Wilcoxon p=7.6e-06
+  L − N: Δ=+0.5758 95%CI [+0.5713, +0.5805] Wilcoxon p=7.6e-06
+  B − S: Δ=+0.1996 95%CI [+0.1928, +0.2063] Wilcoxon p=7.6e-06
+  L − S: Δ=+0.5286 95%CI [+0.5217, +0.5348] Wilcoxon p=7.6e-06
+  annual N: 0.4319, 0.4242, 0.4279, 0.4188, 0.4075, 0.4196, 0.4319, 0.4329, 0.4185, 0.4211, 0.4287, 0.4414, 0.4257, 0.3991, 0.4195, 0.4124, 0.4132, 0.4306
+  annual S: 0.4669, 0.4874, 0.4774, 0.4695, 0.4653, 0.4563, 0.5011, 0.4731, 0.4680, 0.4653, 0.4557, 0.4965, 0.4720, 0.4486, 0.4682, 0.4699, 0.4468, 0.4672
+  annual B: 0.6545, 0.6644, 0.6695, 0.6792, 0.6553, 0.6673, 0.6789, 0.6815, 0.6643, 0.6708, 0.6853, 0.6729, 0.6884, 0.6566, 0.6652, 0.6654, 0.6663, 0.6618
+  annual L: 0.9983, 0.9946, 0.9972, 0.9978, 0.9978, 0.9981, 0.9992, 0.9986, 0.9998, 0.9989, 0.9999, 0.9982, 0.9995, 0.9970, 0.9998, 0.9997, 0.9983, 0.9966
+  [Notification, 2006-2023] havuzlanmış
+    L0: P=0.582 R=0.618 F1=0.600 n=44028
+    L1: P=0.462 R=0.267 F1=0.339 n=27004
+    L2: P=0.628 R=0.733 F1=0.677 n=63271
+    L3: P=0.349 R=0.045 F1=0.079 n=2222
+    macro: P=0.505 R=0.416 F1=0.423 n=136525 | acc=0.593
+    confusion (row=true): [[27212, 2781, 13988, 47], [7562, 7219, 12191, 32], [11356, 5413, 46396, 106], [616, 212, 1295, 99]]
+  [Structured + narrative, 2006-2023] havuzlanmış
+    L0: P=0.645 R=0.674 F1=0.659 n=44028
+    L1: P=0.509 R=0.326 F1=0.398 n=27004
+    L2: P=0.664 R=0.765 F1=0.711 n=63271
+    L3: P=0.405 R=0.069 F1=0.118 n=2222
+    macro: P=0.556 R=0.458 F1=0.471 n=136525 | acc=0.637
+    confusion (row=true): [[29653, 2779, 11515, 81], [6473, 8814, 11675, 42], [9266, 5498, 48405, 102], [580, 231, 1258, 153]]
+  2018-2023:
+  Notification (structured only)                     macroF1=0.417  P=0.426 R=0.047 F1=0.085 flag=61 missed=522 NNA=2.35 AP=0.145
+  Structured + narrative                             macroF1=0.462  P=0.402 R=0.071 F1=0.121 flag=97 missed=509 NNA=2.49 AP=0.199
+  Assessment                                         macroF1=0.667  P=0.967 R=0.743 F1=0.840 flag=421 missed=141 NNA=1.03 AP=0.890
+
+[2] Öğreniciler, yalnız yapısal alanlar, 2018-2023
+  Notification LightGBM                              macroF1=0.417  P=0.426 R=0.047 F1=0.085 flag=61 missed=522 NNA=2.35 AP=0.145
+  Notification RF                                    macroF1=0.459  P=0.211 R=0.217 F1=0.214 flag=563 missed=429 NNA=4.73
+  Notification HistGB                                macroF1=0.424  P=0.089 R=0.580 F1=0.154 flag=3581 missed=230 NNA=11.26
+  Notification LogReg                                macroF1=0.355  P=0.053 R=0.655 F1=0.099 flag=6729 missed=189 NNA=18.74
+  Notification LightGBM balanced weights             macroF1=0.452  P=0.134 R=0.347 F1=0.194 flag=1413 missed=358 NNA=7.44 AP=0.129
+  Notification LogReg one-hot                        macroF1=0.408  P=0.071 R=0.599 F1=0.127 flag=4601 missed=220 NNA=14.03 AP=0.130
+  Notification                                       TEST-SET thr (optimistic): F1=0.223 P=0.208 R=0.241 flag=636 missed=416 NNA=4.82
+  Structured + 100-term                              TEST-SET thr (optimistic): F1=0.287 P=0.238 R=0.359 flag=826 missed=351 NNA=4.19
+  Structured + 1000-term                             TEST-SET thr (optimistic): F1=0.363 P=0.341 R=0.389 flag=624 missed=335 NNA=2.93
+  Assessment                                         TEST-SET thr (optimistic): F1=0.848 P=0.952 R=0.765 flag=440 missed=129 NNA=1.05
+  Notification + prior-year thr                      macroF1=0.447  P=0.181 R=0.263 F1=0.214 flag=795 missed=404 NNA=5.52 AP=0.145
+
+[3] Etiket olgunlaşma boşluğu (eğitim: YEAR < y − gap)
+  Notification gap0 (main): 2006-2023 macroF1=0.4225 AP=0.126
+  Notification gap0 2018-2023                        macroF1=0.417  P=0.426 R=0.047 F1=0.085 flag=61 missed=522 NNA=2.35 AP=0.145
+  Notification gap1: 2006-2023 macroF1=0.4193 AP=0.133 | gap1 − main: Δ=-0.0032 95%CI [-0.0087, +0.0031] Wilcoxon p=1.5e-01
+  Notification gap1 2018-2023                        macroF1=0.410  P=0.286 R=0.033 F1=0.059 flag=63 missed=530 NNA=3.50 AP=0.143
+  Notification gap1 2006-2023 pooled                 macroF1=0.419  P=0.322 R=0.044 F1=0.077 flag=301 missed=2125 NNA=3.10 AP=0.133
+  Notification gap2: 2006-2023 macroF1=0.4195 AP=0.124 | gap2 − main: Δ=-0.0030 95%CI [-0.0106, +0.0037] Wilcoxon p=8.3e-01
+  Notification gap2 2018-2023                        macroF1=0.417  P=0.350 R=0.051 F1=0.089 flag=80 missed=520 NNA=2.86 AP=0.140
+  Notification gap2 2006-2023 pooled                 macroF1=0.419  P=0.338 R=0.047 F1=0.082 flag=308 missed=2118 NNA=2.96 AP=0.124
+  Notification gap0 2006-2023 pooled                 macroF1=0.422  P=0.349 R=0.045 F1=0.079 flag=284 missed=2123 NNA=2.87 AP=0.126
+  Structured + narrative gap0 (main): 2006-2023 macroF1=0.4697 AP=0.183
+  Structured + narrative gap0 2018-2023              macroF1=0.462  P=0.402 R=0.071 F1=0.121 flag=97 missed=509 NNA=2.49 AP=0.199
+  Structured + narrative gap1: 2006-2023 macroF1=0.4703 AP=0.187 | gap1 − main: Δ=+0.0006 95%CI [-0.0043, +0.0056] Wilcoxon p=9.0e-01
+  Structured + narrative gap1 2018-2023              macroF1=0.467  P=0.479 R=0.082 F1=0.140 flag=94 missed=503 NNA=2.09 AP=0.210
+  Structured + narrative gap1 2006-2023 pooled       macroF1=0.470  P=0.433 R=0.070 F1=0.120 flag=358 missed=2067 NNA=2.31 AP=0.187
+  Structured + narrative gap2: 2006-2023 macroF1=0.4672 AP=0.184 | gap2 − main: Δ=-0.0026 95%CI [-0.0093, +0.0047] Wilcoxon p=4.4e-01
+  Structured + narrative gap2 2018-2023              macroF1=0.464  P=0.448 R=0.086 F1=0.144 flag=105 missed=501 NNA=2.23 AP=0.217
+  Structured + narrative gap2 2006-2023 pooled       macroF1=0.467  P=0.411 R=0.071 F1=0.121 flag=382 missed=2065 NNA=2.43 AP=0.184
+  Structured + narrative gap0 2006-2023 pooled       macroF1=0.470  P=0.405 R=0.069 F1=0.118 flag=378 missed=2069 NNA=2.47 AP=0.183
+  Belgelenmiş kapanış tarihiyle eğitim (D):
+    test 2006: eğitim kayıtlarının %2.8'i çıkarıldı; y−1 yılının %16.2'i | çıkarılanların sınıf dağılımı {0: 0.019, 1: 0.106, 2: 0.787, 3: 0.088}
+    test 2012: eğitim kayıtlarının %1.2'i çıkarıldı; y−1 yılının %16.2'i | çıkarılanların sınıf dağılımı {0: 0.017, 1: 0.124, 2: 0.758, 3: 0.1}
+    test 2018: eğitim kayıtlarının %0.8'i çıkarıldı; y−1 yılının %19.2'i | çıkarılanların sınıf dağılımı {0: 0.026, 1: 0.099, 2: 0.813, 3: 0.061}
+    test 2023: eğitim kayıtlarının %0.6'i çıkarıldı; y−1 yılının %20.2'i | çıkarılanların sınıf dağılımı {0: 0.008, 1: 0.123, 2: 0.79, 3: 0.079}
+    işe-dönüş tarihi eksik oranı: tümü 0.039 | sınıfa göre {0: 0.002, 1: 0.003, 2: 0.064, 3: 0.468}
+  Notification documented-disposition: 2006-2023 macroF1=0.4224 AP=0.115 | − main: Δ=-0.0001 95%CI [-0.0054, +0.0048] Wilcoxon p=8.0e-01
+  Notification documented-disposition 2018-2023      macroF1=0.419  P=0.383 R=0.042 F1=0.076 flag=60 missed=525 NNA=2.61 AP=0.139
+  Notification documented-disposition 2006-2023 pooled macroF1=0.422  P=0.296 R=0.035 F1=0.062 flag=260 missed=2145 NNA=3.38 AP=0.115
+  Structured + narrative documented-disposition: 2006-2023 macroF1=0.4683 AP=0.179 | − main: Δ=-0.0014 95%CI [-0.0063, +0.0031] Wilcoxon p=1.0e+00
+  Structured + narrative documented-disposition 2018-2023 macroF1=0.465  P=0.410 R=0.078 F1=0.132 flag=105 missed=505 NNA=2.44 AP=0.192
+  Structured + narrative documented-disposition 2006-2023 pooled macroF1=0.468  P=0.430 R=0.055 F1=0.097 flag=284 missed=2100 NNA=2.33 AP=0.179
+
+[4] Hiperparametre duyarlılığı, 2018-2023
+  Notification c0_default                            macroF1=0.417  P=0.426 R=0.047 F1=0.085 flag=61 missed=522 NNA=2.35 AP=0.145
+  Notification c1_leaves15                           macroF1=0.410  P=0.329 R=0.044 F1=0.077 flag=73 missed=524 NNA=3.04 AP=0.147
+  Notification c2_leaves255                          macroF1=0.414  P=0.450 R=0.033 F1=0.061 flag=40 missed=530 NNA=2.22 AP=0.137
+  Notification c3_600trees_lr0.025                   macroF1=0.417  P=0.436 R=0.044 F1=0.080 flag=55 missed=524 NNA=2.29 AP=0.143
+  Notification c4_150trees_lr0.1                     macroF1=0.420  P=0.349 R=0.053 F1=0.092 flag=83 missed=519 NNA=2.86 AP=0.144
+  Notification c5_minchild100                        macroF1=0.423  P=0.437 R=0.057 F1=0.100 flag=71 missed=517 NNA=2.29 AP=0.146
+  Notification c6_rowbag0.8_col0.5                   macroF1=0.418  P=0.397 R=0.046 F1=0.082 flag=63 missed=523 NNA=2.52 AP=0.138
+  Notification c7_reg1.0                             macroF1=0.418  P=0.366 R=0.047 F1=0.084 flag=71 missed=522 NNA=2.73 AP=0.150
+  Notification tuned (prior-year macroF1)            macroF1=0.421  P=0.403 R=0.053 F1=0.094 flag=72 missed=519 NNA=2.48 AP=0.140  picks=['c0', 'c4', 'c5', 'c5', 'c4', 'c6']
+  Notification tuned (macroF1) + prior-year thr      macroF1=0.449  P=0.179 R=0.263 F1=0.213 flag=805 missed=404 NNA=5.59 AP=0.140
+  Notification tuned (prior-year AP)                 macroF1=0.417  P=0.382 R=0.047 F1=0.084 flag=68 missed=522 NNA=2.62 AP=0.140  picks=['c0', 'c5', 'c1', 'c0', 'c4', 'c6']
+  Notification tuned (AP) + prior-year thr           macroF1=0.448  P=0.179 R=0.252 F1=0.210 flag=769 missed=410 NNA=5.57 AP=0.140
+  Notification: macroF1 aralığı 0.410-0.423 | AP aralığı 0.137-0.150
+  Structured + narrative c0_default                  macroF1=0.462  P=0.402 R=0.071 F1=0.121 flag=97 missed=509 NNA=2.49 AP=0.199
+  Structured + narrative c1_leaves15                 macroF1=0.460  P=0.397 R=0.084 F1=0.139 flag=116 missed=502 NNA=2.52 AP=0.211
+  Structured + narrative c2_leaves255                macroF1=0.447  P=0.486 R=0.033 F1=0.062 flag=37 missed=530 NNA=2.06 AP=0.205
+  Structured + narrative c3_600trees_lr0.025         macroF1=0.460  P=0.412 R=0.064 F1=0.111 flag=85 missed=513 NNA=2.43 AP=0.201
+  Structured + narrative c4_150trees_lr0.1           macroF1=0.464  P=0.358 R=0.078 F1=0.129 flag=120 missed=505 NNA=2.79 AP=0.186
+  Structured + narrative c5_minchild100              macroF1=0.463  P=0.400 R=0.069 F1=0.118 flag=95 missed=510 NNA=2.50 AP=0.195
+  Structured + narrative c6_rowbag0.8_col0.5         macroF1=0.463  P=0.426 R=0.073 F1=0.125 flag=94 missed=508 NNA=2.35 AP=0.212
+  Structured + narrative c7_reg1.0                   macroF1=0.466  P=0.381 R=0.078 F1=0.130 flag=113 missed=505 NNA=2.63 AP=0.199
+  Structured + narrative tuned (prior-year macroF1)  macroF1=0.460  P=0.383 R=0.066 F1=0.112 flag=94 missed=512 NNA=2.61 AP=0.196  picks=['c5', 'c5', 'c7', 'c4', 'c0', 'c4']
+  Structured + narrative tuned (macroF1) + prior-year thr macroF1=0.494  P=0.241 R=0.283 F1=0.260 flag=644 missed=393 NNA=4.15 AP=0.196
+  Structured + narrative tuned (prior-year AP)       macroF1=0.458  P=0.411 R=0.071 F1=0.121 flag=95 missed=509 NNA=2.44 AP=0.187  picks=['c5', 'c2', 'c1', 'c6', 'c1', 'c1']
+  Structured + narrative tuned (AP) + prior-year thr macroF1=0.494  P=0.257 R=0.281 F1=0.269 flag=599 missed=394 NNA=3.89 AP=0.187
+  Structured + narrative: macroF1 aralığı 0.447-0.466 | AP aralığı 0.186-0.212
+
+[5] 1000 terimlik sözlük (değerlendirme yılları 2018-2023)
+  2018: 1000 terim → {'event': 828, 'body': 95, 'treatment': 33, 'nature': 29, 'symptom': 15} | taramayla çıkarılan aday 8 | 100 terim → {'event': 71, 'body': 16, 'nature': 6, 'treatment': 4, 'symptom': 3}
+  2019: 1000 terim → {'event': 828, 'body': 92, 'treatment': 33, 'nature': 30, 'symptom': 17} | taramayla çıkarılan aday 9 | 100 terim → {'event': 70, 'body': 16, 'nature': 6, 'treatment': 5, 'symptom': 3}
+  2020: 1000 terim → {'event': 832, 'body': 92, 'treatment': 32, 'nature': 28, 'symptom': 16} | taramayla çıkarılan aday 9 | 100 terim → {'event': 70, 'body': 16, 'nature': 6, 'treatment': 5, 'symptom': 3}
+  2021: 1000 terim → {'event': 830, 'body': 92, 'treatment': 33, 'nature': 29, 'symptom': 16} | taramayla çıkarılan aday 9 | 100 terim → {'event': 71, 'body': 15, 'nature': 6, 'treatment': 5, 'symptom': 3}
+  2022: 1000 terim → {'event': 835, 'body': 90, 'treatment': 32, 'nature': 28, 'symptom': 15} | taramayla çıkarılan aday 9 | 100 terim → {'event': 71, 'body': 15, 'nature': 6, 'treatment': 5, 'symptom': 3}
+  2023: 1000 terim → {'event': 834, 'body': 92, 'treatment': 32, 'nature': 27, 'symptom': 15} | taramayla çıkarılan aday 8 | 100 terim → {'event': 71, 'body': 15, 'nature': 6, 'treatment': 5, 'symptom': 3}
+  birleşim: tutulan 1055 terim, taramayla çıkarılan 9; altı yılın hepsinde olan 959
+  kategori (birleşim, tutulan): {'event': 876, 'body': 97, 'treatment': 35, 'nature': 30, 'symptom': 17}
+  Structured + 1000-term (v19)                       macroF1=0.504  P=0.587 R=0.117 F1=0.195 flag=109 missed=484 NNA=1.70 AP=0.308
+  Structured + 1000-term + prior-year thr            macroF1=0.541  P=0.319 R=0.389 F1=0.350 flag=668 missed=335 NNA=3.14 AP=0.308
+  Structured + 1000 event-only terms                 macroF1=0.478  P=0.643 R=0.099 F1=0.171 flag=84 missed=494 NNA=1.56 AP=0.269
+  Structured + 1000 event-only + prior-year thr      macroF1=0.511  P=0.277 R=0.338 F1=0.305 flag=667 missed=363 NNA=3.61 AP=0.269
+  Structured + 100-term (main)                       macroF1=0.462  P=0.402 R=0.071 F1=0.121 flag=97 missed=509 NNA=2.49 AP=0.199
+  Structured + 100 event-only terms                  macroF1=0.441  P=0.403 R=0.053 F1=0.094 flag=72 missed=519 NNA=2.48 AP=0.177
+  Structured + 100 event-only + prior-year thr       macroF1=0.475  P=0.196 R=0.310 F1=0.240 flag=869 missed=378 NNA=5.11 AP=0.177
+  100 terimlik sözlük, olay-dışı terimler (2023): ['hand', 'finger', 'pain', 'felt', 'knee', 'shoulder', 'foot', 'cut', 'laceration', 'head', 'stitches', 'felt pain', 'arm', 'eye', 'leg', 'left hand', 'ankle', 'medical', 'right hand', 'broke', 'doctor', 'fracture', 'thumb', 'face', 'sutures', 'strained', 'taken', 'strain', 'index']
+  Structured only                                    macroF1=0.417  P=0.426 R=0.047 F1=0.085 flag=61 missed=522 NNA=2.35 AP=0.145
+  ###VOCAB_BEGIN### term|screen|category|years(2018..2023)|df2023
+  ankle|kept|body|111111|2768
+  arm|kept|body|111111|3067
+  back|kept|body|111111|12357
+  back and|kept|body|111111|1050
+  back he|kept|body|111111|484
+  back of|kept|body|111111|1152
+  back on|kept|body|111111|479
+  back pain|kept|body|111111|523
+  back to|kept|body|111111|751
+  back while|kept|body|100000|
+  body|kept|body|111111|688
+  chest|kept|body|111111|458
+  elbow|kept|body|111111|1246
+  eye|kept|body|111111|2997
+  eyes|kept|body|111111|617
+  face|kept|body|111111|2046
+  feet|kept|body|111111|1017
+  finger|kept|body|111111|7317
+  finger between|kept|body|111111|1151
+  finger on|kept|body|111111|787
+  finger was|kept|body|111111|691
+  fingers|kept|body|111111|844
+  foot|kept|body|111111|4155
+  foot slipped|kept|body|111111|862
+  forearm|kept|body|111111|973
+  groin|kept|body|111111|672
+  hand|kept|body|111111|8673
+  hand and|kept|body|111111|727
+  hand between|kept|body|111111|584
+  hand on|kept|body|111111|693
+  hand was|kept|body|111111|495
+  hands|kept|body|111111|570
+  head|kept|body|111111|3629
+  head and|kept|body|111110|
+  head on|kept|body|111111|710
+  hip|kept|body|111111|531
+  his ankle|kept|body|111111|633
+  his arm|kept|body|111111|449
+  his back|kept|body|111111|2529
+  his eye|kept|body|111111|616
+  his face|kept|body|100000|
+  his finger|kept|body|111111|1274
+  his foot|kept|body|111111|1092
+  his hand|kept|body|111111|1712
+  his head|kept|body|111111|1144
+  his knee|kept|body|111111|942
+  his leg|kept|body|111101|412
+  his neck|kept|body|111111|502
+  his shoulder|kept|body|111111|589
+  his thumb|kept|body|111000|
+  index|kept|body|111111|1702
+  index finger|kept|body|111111|1566
+  knee|kept|body|111111|4962
+  left ankle|kept|body|111111|651
+  left arm|kept|body|111111|785
+  left eye|kept|body|111111|867
+  left foot|kept|body|111111|936
+  left hand|kept|body|111111|2773
+  left index|kept|body|111111|649
+  left knee|kept|body|111111|1517
+  left leg|kept|body|111111|847
+  left shoulder|kept|body|111111|1205
+  left thumb|kept|body|111111|674
+  left wrist|kept|body|111111|455
+  leg|kept|body|111111|3001
+  lip|kept|body|111111|522
+  little finger|kept|body|111111|532
+  lower back|kept|body|111111|3070
+  middle finger|kept|body|111111|1163
+  mouth|kept|body|111111|481
+  neck|kept|body|111111|1618
+  nose|kept|body|100000|
+  pinky|kept|body|111111|501
+  rib|kept|body|111111|1628
+  ribs|kept|body|000001|415
+  right ankle|kept|body|111111|715
+  right arm|kept|body|111111|785
+  right eye|kept|body|111111|860
+  right foot|kept|body|111111|985
+  right hand|kept|body|111111|2360
+  right index|kept|body|111111|505
+  right knee|kept|body|111111|1538
+  right leg|kept|body|111111|757
+  right shoulder|kept|body|111111|1372
+  right thumb|kept|body|111111|459
+  ring|kept|body|111111|1356
+  ring finger|kept|body|111111|1013
+  shoulder|kept|body|111111|4311
+  shoulder and|kept|body|111111|465
+  the back|kept|body|111111|1327
+  the face|kept|body|111111|765
+  the head|kept|body|111111|830
+  the rib|kept|body|111111|610
+  thumb|kept|body|111111|2049
+  toe|kept|body|000101|419
+  tooth|kept|body|111111|472
+  wrist|kept|body|111111|1499
+  00|kept|event|111111|500
+  01|kept|event|111111|670
+  02|kept|event|111111|649
+  03|kept|event|111111|610
+  04|kept|event|111111|557
+  05|kept|event|111111|554
+  06|kept|event|111111|547
+  07|kept|event|111111|538
+  08|kept|event|111111|499
+  09|kept|event|111111|471
+  10|kept|event|111111|2035
+  11|kept|event|111111|1434
+  12|kept|event|111111|1687
+  13|kept|event|111111|675
+  14|kept|event|111111|755
+  15|kept|event|111111|826
+  16|kept|event|111111|698
+  17|kept|event|111111|557
+  18|kept|event|111111|647
+  19|kept|event|111111|499
+  20|kept|event|111111|785
+  21|kept|event|111111|517
+  22|kept|event|100001|484
+  23|kept|event|010110|
+  24|kept|event|111111|476
+  25|kept|event|111111|517
+  27|kept|event|000010|
+  28|kept|event|111111|437
+  2nd|kept|event|111111|413
+  30|kept|event|111111|665
+  about|kept|event|111111|761
+  above|kept|event|111111|930
+  above the|kept|event|011000|
+  accident|kept|event|111111|1013
+  across|kept|event|111111|745
+  after|kept|event|111111|2332
+  against|kept|event|111111|1769
+  against the|kept|event|111111|903
+  aid|kept|event|111111|486
+  air|kept|event|111111|1134
+  all|kept|event|111111|497
+  along|kept|event|111111|641
+  also|kept|event|000100|
+  an|kept|event|111111|5457
+  an employee|kept|event|000011|445
+  and|kept|event|111111|38585
+  and caught|kept|event|111111|641
+  and ee|kept|event|000011|471
+  and fell|kept|event|111111|3165
+  and had|kept|event|111111|488
+  and he|kept|event|111111|1414
+  and his|kept|event|111111|786
+  and hit|kept|event|111111|1911
+  and it|kept|event|111111|673
+  and pinched|kept|event|001000|
+  and slipped|kept|event|111111|607
+  and stepped|kept|event|001000|
+  and struck|kept|event|111111|2426
+  and the|kept|event|111111|3856
+  and twisted|kept|event|111111|1198
+  and was|kept|event|111111|2377
+  and when|kept|event|111111|600
+  another|kept|event|111111|1792
+  another employee|kept|event|111111|535
+  any|kept|event|111111|816
+  approx|kept|event|111111|863
+  approximately|kept|event|111111|651
+  area|kept|event|111111|3141
+  around|kept|event|111111|1707
+  around the|kept|event|111111|437
+  as|kept|event|111111|5721
+  as ee|kept|event|000011|472
+  as he|kept|event|111111|2162
+  as the|kept|event|111111|777
+  assisting|kept|event|111111|653
+  at|kept|event|111111|6047
+  at the|kept|event|111111|2647
+  attempted|kept|event|111111|691
+  attempted to|kept|event|111111|680
+  attempting|kept|event|111111|1705
+  attempting to|kept|event|111111|1694
+  attention|kept|event|111111|777
+  away|kept|event|111111|797
+  away from|kept|event|110000|
+  backwards|kept|event|111111|726
+  bag|kept|event|111111|574
+  bags|kept|event|111111|423
+  balance|kept|event|111111|912
+  balance and|kept|event|111111|458
+  bar|kept|event|111111|1844
+  bar slipped|kept|event|001000|
+  bar to|kept|event|111111|461
+  be|kept|event|111111|1848
+  beam|kept|event|111111|580
+  bearing|kept|event|100111|433
+  became|kept|event|111111|1372
+  bed|kept|event|111111|558
+  been|kept|event|111111|1194
+  before|kept|event|111111|476
+  began|kept|event|111111|1198
+  began to|kept|event|111111|512
+  behind|kept|event|111111|736
+  being|kept|event|111111|1560
+  below|kept|event|111111|467
+  belt|kept|event|111111|4196
+  belt and|kept|event|111111|462
+  bent|kept|event|111111|907
+  bent over|kept|event|111111|454
+  between|kept|event|111111|5661
+  between the|kept|event|111111|3095
+  bit|kept|event|111100|
+  blade|kept|event|111111|526
+  blew|kept|event|111111|727
+  block|kept|event|111111|869
+  bolt|kept|event|111111|2622
+  bolter|kept|event|111111|1404
+  bolting|kept|event|111111|1023
+  bolts|kept|event|111111|1414
+  boom|kept|event|111111|573
+  both|kept|event|111111|676
+  bottom|kept|event|111111|1330
+  bounced|kept|event|010000|
+  box|kept|event|111111|1059
+  break|kept|event|111111|621
+  breaking|kept|event|111111|455
+  bucket|kept|event|111111|1781
+  building|kept|event|111111|438
+  burning|kept|event|000010|
+  but|kept|event|111111|1904
+  by|kept|event|111111|4316
+  by the|kept|event|111111|741
+  cab|kept|event|111111|819
+  cable|kept|event|111111|2331
+  came|kept|event|111111|2664
+  came loose|kept|event|111111|425
+  canopy|kept|event|111111|509
+  car|kept|event|111111|1460
+  carrying|kept|event|111111|832
+  cat|kept|event|111111|606
+  catch|kept|event|111111|613
+  catching|kept|event|111111|481
+  caught|kept|event|111111|3940
+  caught between|kept|event|111111|862
+  caught his|kept|event|111111|675
+  caught on|kept|event|111111|440
+  caused|kept|event|111111|2309
+  caused the|kept|event|111111|534
+  causing|kept|event|111111|8601
+  causing him|kept|event|111111|1181
+  causing the|kept|event|111111|1253
+  center|kept|event|111111|437
+  chain|kept|event|111111|1199
+  change|kept|event|100111|426
+  changing|kept|event|111111|1240
+  check|kept|event|101100|
+  checking|kept|event|011100|
+  chute|kept|event|111111|728
+  clean|kept|event|111111|527
+  cleaning|kept|event|111111|1516
+  climbing|kept|event|111111|1135
+  close|kept|event|111111|1228
+  close the|kept|event|111111|452
+  co|kept|event|111111|634
+  co worker|kept|event|111111|477
+  coal|kept|event|111111|1266
+  come|kept|event|111111|661
+  coming|kept|event|111111|455
+  company|kept|event|111111|493
+  compliance|kept|event|011111|581
+  concrete|kept|event|111111|690
+  contact|kept|event|111111|829
+  contact with|kept|event|111111|594
+  contacted|kept|event|000011|446
+  continued|kept|event|111111|1298
+  continued to|kept|event|111111|949
+  continuous|kept|event|111111|577
+  continuous miner|kept|event|111111|531
+  control|kept|event|111111|594
+  conveyor|kept|event|111111|2043
+  conveyor belt|kept|event|111111|686
+  corner|kept|event|111111|429
+  could|kept|event|111111|696
+  cover|kept|event|111111|418
+  crane|kept|event|111111|446
+  crusher|kept|event|111111|1298
+  cutting|kept|event|111111|2538
+  day|kept|event|111111|1717
+  days|kept|event|111111|1066
+  deck|kept|event|111111|696
+  did|kept|event|111111|2963
+  did not|kept|event|111111|2657
+  didn|kept|event|111111|483
+  doing|kept|event|111111|701
+  door|kept|event|111111|1494
+  down|kept|event|111111|5864
+  down and|kept|event|111111|464
+  down on|kept|event|111111|506
+  down the|kept|event|111111|892
+  down to|kept|event|111111|495
+  dozer|kept|event|111111|1035
+  draw|kept|event|111111|542
+  draw rock|kept|event|111111|475
+  drill|kept|event|111111|2031
+  drill steel|kept|event|111111|627
+  drilling|kept|event|111111|592
+  drive|kept|event|111111|709
+  driver|kept|event|111111|634
+  driving|kept|event|111111|850
+  dropped|kept|event|111111|814
+  due|kept|event|111111|1345
+  due to|kept|event|111111|1329
+  dump|kept|event|111111|535
+  during|kept|event|111111|959
+  dust|kept|event|111111|1162
+  duty|kept|event|111111|2441
+  edge|kept|event|111111|910
+  edge of|kept|event|111111|556
+  ee|kept|event|111111|18699
+  ee had|kept|event|111111|712
+  ee in|kept|event|111111|551
+  ee left|kept|event|011111|771
+  ee on|kept|event|111111|614
+  ee right|kept|event|001111|642
+  ee slipped|kept|event|000011|450
+  ee stated|kept|event|111111|549
+  ee to|kept|event|011111|488
+  ee was|kept|event|111111|10953
+  ee went|kept|event|000010|
+  employee|kept|event|111111|29123
+  employee did|kept|event|111111|547
+  employee had|kept|event|111111|846
+  employee in|kept|event|111111|821
+  employee left|kept|event|111111|523
+  employee on|kept|event|111111|776
+  employee received|kept|event|111111|528
+  employee right|kept|event|001111|435
+  employee slipped|kept|event|111111|630
+  employee stated|kept|event|111111|1126
+  employee stepped|kept|event|111111|549
+  employee to|kept|event|111111|554
+  employee was|kept|event|111111|18937
+  employee went|kept|event|101111|463
+  employees|kept|event|111111|1169
+  end|kept|event|111111|2104
+  end of|kept|event|111111|1291
+  entry|kept|event|111111|904
+  equipment|kept|event|111111|1201
+  excavator|kept|event|000001|413
+  exiting|kept|event|111111|530
+  experienced|kept|event|111111|547
+  fall|kept|event|111111|2224
+  falling|kept|event|111111|870
+  feeder|kept|event|111111|660
+  fell|kept|event|111111|10355
+  fell and|kept|event|111111|828
+  fell from|kept|event|111111|1240
+  fell off|kept|event|111111|534
+  fell on|kept|event|111111|1197
+  fell out|kept|event|111111|546
+  fell striking|kept|event|111111|629
+  fell to|kept|event|111111|835
+  finished|kept|event|111111|525
+  first|kept|event|111111|1336
+  flew|kept|event|111111|561
+  floor|kept|event|111111|1652
+  footing|kept|event|111111|580
+  for|kept|event|111111|5900
+  for the|kept|event|111111|820
+  forklift|kept|event|111111|523
+  forward|kept|event|111111|816
+  found|kept|event|001000|
+  frame|kept|event|111111|1085
+  free|kept|event|111111|580
+  from|kept|event|111111|10547
+  from the|kept|event|111111|3729
+  front|kept|event|111111|1137
+  full|kept|event|111111|941
+  full duty|kept|event|111111|478
+  gave|kept|event|100110|
+  get|kept|event|111111|1349
+  getting|kept|event|111111|1068
+  given|kept|event|111111|868
+  glasses|kept|event|111111|951
+  glove|kept|event|111111|508
+  gloves|kept|event|111111|468
+  go|kept|event|111111|765
+  going|kept|event|111111|744
+  got|kept|event|111111|2894
+  got caught|kept|event|111111|476
+  grabbed|kept|event|111111|531
+  grinding|kept|event|111111|459
+  ground|kept|event|111111|3127
+  guard|kept|event|111111|654
+  had|kept|event|111111|5699
+  had been|kept|event|111111|615
+  had to|kept|event|101010|
+  hammer|kept|event|111111|1995
+  hammer to|kept|event|111111|439
+  handle|kept|event|111111|724
+  handrail|kept|event|100011|419
+  hanging|kept|event|111111|619
+  hard|kept|event|111111|809
+  hard hat|kept|event|111111|503
+  has|kept|event|111111|1290
+  hat|kept|event|111111|546
+  haul|kept|event|111111|1184
+  haul truck|kept|event|111111|936
+  have|kept|event|111111|1039
+  he|kept|event|111111|21400
+  he continued|kept|event|100000|
+  he did|kept|event|111111|682
+  he fell|kept|event|111111|946
+  he got|kept|event|111000|
+  he had|kept|event|111111|1422
+  he hit|kept|event|111111|562
+  he lost|kept|event|111111|460
+  he pulled|kept|event|111111|444
+  he received|kept|event|111111|626
+  he slipped|kept|event|111111|1328
+  he stepped|kept|event|111111|1081
+  he turned|kept|event|110000|
+  he twisted|kept|event|111111|455
+  he was|kept|event|111111|7419
+  he went|kept|event|111111|940
+  helping|kept|event|111111|1176
+  her|kept|event|111111|706
+  high|kept|event|111111|511
+  him|kept|event|111111|5683
+  him in|kept|event|111111|1043
+  him on|kept|event|111111|1330
+  him to|kept|event|111111|1799
+  himself|kept|event|111111|983
+  his|kept|event|111111|27956
+  his balance|kept|event|111111|485
+  his left|kept|event|111111|6132
+  his lower|kept|event|111111|1722
+  his right|kept|event|111111|5797
+  hit|kept|event|111111|5225
+  hit him|kept|event|111111|594
+  hit his|kept|event|111111|1110
+  hit the|kept|event|111111|1083
+  hitting|kept|event|111111|1385
+  hold|kept|event|000100|
+  holding|kept|event|111111|991
+  hole|kept|event|111111|1957
+  hook|kept|event|111101|426
+  hopper|kept|event|110000|
+  hose|kept|event|111111|1654
+  hot|kept|event|111111|485
+  hydraulic|kept|event|111111|630
+  ice|kept|event|111111|726
+  impact|kept|event|111111|543
+  in|kept|event|111111|26445
+  in an|kept|event|001000|
+  in ee|kept|event|000001|412
+  in his|kept|event|111111|5260
+  in left|kept|event|111111|673
+  in lower|kept|event|111111|776
+  in right|kept|event|111111|730
+  in the|kept|event|111111|8994
+  inch|kept|event|111111|443
+  incident|kept|event|111111|1243
+  injured|kept|event|111111|4057
+  injured employee|kept|event|111111|728
+  injured was|kept|event|111111|1191
+  injuring|kept|event|111111|513
+  injury|kept|event|111111|3528
+  injury to|kept|event|111111|460
+  injury was|kept|event|111111|580
+  inside|kept|event|111111|916
+  install|kept|event|111111|494
+  installing|kept|event|111111|1615
+  into|kept|event|111111|6124
+  into his|kept|event|111111|837
+  into the|kept|event|111111|1940
+  is|kept|event|111111|2157
+  it|kept|event|111111|8227
+  it slipped|kept|event|101000|
+  it to|kept|event|111111|592
+  it was|kept|event|111111|1238
+  jack|kept|event|111111|735
+  job|kept|event|111111|655
+  just|kept|event|111111|775
+  knife|kept|event|111111|1305
+  knife slipped|kept|event|111111|609
+  ladder|kept|event|111111|1635
+  landed|kept|event|111111|877
+  landed on|kept|event|111111|743
+  landing|kept|event|111111|740
+  landing on|kept|event|111111|595
+  large|kept|event|111111|609
+  last|kept|event|111111|526
+  later|kept|event|111111|886
+  lb|kept|event|110000|
+  left|kept|event|111111|14920
+  left side|kept|event|111111|793
+  level|kept|event|111111|474
+  lift|kept|event|111111|868
+  lifted|kept|event|111111|703
+  lifting|kept|event|111111|2258
+  light|kept|event|111111|766
+  line|kept|event|111111|1601
+  little|kept|event|111111|690
+  load|kept|event|111111|658
+  loaded|kept|event|011110|
+  loader|kept|event|111111|2370
+  loading|kept|event|111111|1202
+  long|kept|event|111111|684
+  loose|kept|event|111111|1684
+  lost|kept|event|111111|2600
+  lost his|kept|event|111111|697
+  low|kept|event|111111|508
+  lower|kept|event|111111|4433
+  machine|kept|event|111111|1290
+  made|kept|event|111111|558
+  maintenance|kept|event|111111|664
+  making|kept|event|111111|600
+  man|kept|event|111111|659
+  mantrip|kept|event|111111|539
+  material|kept|event|111111|1586
+  mechanic|kept|event|111111|593
+  metal|kept|event|111111|2578
+  middle|kept|event|111111|1636
+  mill|kept|event|111111|738
+  mine|kept|event|111111|1487
+  miner|kept|event|111111|3672
+  miner cable|kept|event|111111|542
+  miner was|kept|event|111111|1006
+  mining|kept|event|111111|491
+  missed|kept|event|111111|962
+  missing|kept|event|111111|985
+  missing work|kept|event|111111|644
+  motor|kept|event|111111|805
+  move|kept|event|111111|1099
+  moved|kept|event|111111|751
+  moving|kept|event|111111|1723
+  mud|kept|event|111111|657
+  near|kept|event|111111|457
+  needed|kept|event|010110|
+  new|kept|event|111111|611
+  next|kept|event|111111|1400
+  next day|kept|event|111111|472
+  no|kept|event|111111|2408
+  not|kept|event|111111|5274
+  noticed|kept|event|111111|485
+  occurred|kept|event|111111|590
+  of|kept|event|111111|28417
+  of draw|kept|event|111111|434
+  of his|kept|event|111111|2523
+  of metal|kept|event|111111|1062
+  of rock|kept|event|111111|1067
+  of steel|kept|event|100000|
+  of the|kept|event|111111|9826
+  off|kept|event|111111|9114
+  off and|kept|event|111111|719
+  off of|kept|event|111111|1483
+  off the|kept|event|111111|2288
+  oil|kept|event|111111|620
+  on|kept|event|111111|32498
+  on 10|kept|event|111111|646
+  on 11|kept|event|111111|564
+  on 12|kept|event|111111|556
+  on his|kept|event|111111|3320
+  on left|kept|event|111111|777
+  on piece|kept|event|100000|
+  on restricted|kept|event|111111|723
+  on right|kept|event|111111|678
+  on rock|kept|event|111111|662
+  on the|kept|event|111111|11138
+  on top|kept|event|111111|865
+  one|kept|event|111111|2035
+  one of|kept|event|111111|485
+  only|kept|event|111111|515
+  onto|kept|event|111111|2684
+  onto the|kept|event|111111|960
+  open|kept|event|111111|858
+  opening|kept|event|111111|476
+  operating|kept|event|111111|2109
+  operator|kept|event|111111|2181
+  operator was|kept|event|111111|622
+  or|kept|event|111111|1468
+  other|kept|event|111111|1193
+  out|kept|event|111111|7593
+  out and|kept|event|111111|600
+  out of|kept|event|111111|3532
+  out the|kept|event|111111|412
+  outside|kept|event|111111|550
+  over|kept|event|111111|3964
+  over the|kept|event|111111|631
+  over to|kept|event|111111|509
+  pallet|kept|event|111111|579
+  part|kept|event|111111|555
+  performing|kept|event|111111|509
+  physical|kept|event|111111|491
+  pick|kept|event|111111|680
+  pick up|kept|event|111111|532
+  picked|kept|event|111111|434
+  picked up|kept|event|110000|
+  picking|kept|event|111111|434
+  piece|kept|event|111111|5618
+  piece of|kept|event|111111|5207
+  pin|kept|event|111111|889
+  pinched|kept|event|111111|1490
+  pinched between|kept|event|110111|460
+  pinching|kept|event|111111|545
+  pipe|kept|event|111111|1581
+  pit|kept|event|111111|476
+  place|kept|event|111111|1049
+  placed|kept|event|111111|1579
+  placed on|kept|event|111111|862
+  placing|kept|event|010011|412
+  plant|kept|event|111111|1205
+  plate|kept|event|111111|948
+  platform|kept|event|111111|502
+  point|kept|event|101111|416
+  position|kept|event|111111|860
+  power|kept|event|111111|524
+  ppe|kept|event|001111|459
+  pressure|kept|event|111111|743
+  process|kept|event|111111|1174
+  process of|kept|event|111111|857
+  pry|kept|event|111111|619
+  pry bar|kept|event|111111|540
+  pull|kept|event|111111|1178
+  pulled|kept|event|111111|1993
+  pulley|kept|event|111111|511
+  pulling|kept|event|111111|2304
+  pulling on|kept|event|111111|489
+  pump|kept|event|111111|1088
+  pushed|kept|event|111111|510
+  pushing|kept|event|111111|812
+  put|kept|event|111111|1601
+  putting|kept|event|111111|868
+  rail|kept|event|111111|1149
+  raised|kept|event|010000|
+  ran|kept|event|111111|543
+  reached|kept|event|111111|786
+  rear|kept|event|111111|477
+  received|kept|event|111111|2505
+  remove|kept|event|111111|1313
+  removed|kept|event|111111|1279
+  removing|kept|event|111111|2212
+  repair|kept|event|111111|661
+  replacing|kept|event|111111|646
+  report|kept|event|111111|937
+  reportable|kept|event|111111|920
+  reported|kept|event|111111|1701
+  required|kept|event|111111|2426
+  requiring|kept|event|111111|1229
+  restricted|kept|event|111111|1481
+  restrictions|kept|event|111111|1074
+  result|kept|event|111111|577
+  resulted|kept|event|111111|1236
+  resulted in|kept|event|111111|1177
+  resulting|kept|event|111111|2367
+  resulting in|kept|event|111111|2269
+  return|kept|event|111111|684
+  return to|kept|event|010110|
+  returned|kept|event|111111|1207
+  returned to|kept|event|111111|1067
+  right|kept|event|111111|13932
+  right side|kept|event|111111|788
+  road|kept|event|111111|694
+  rock|kept|event|111111|6111
+  rock and|kept|event|111111|567
+  rock fell|kept|event|111111|1700
+  roll|kept|event|111111|492
+  rolled|kept|event|111111|1226
+  roller|kept|event|111111|894
+  roof|kept|event|111111|3420
+  roof bolt|kept|event|111111|805
+  roof bolter|kept|event|111111|848
+  roof bolting|kept|event|001000|
+  room|kept|event|111111|613
+  rt|kept|event|111111|675
+  rubber|kept|event|111111|486
+  running|kept|event|111111|443
+  safety|kept|event|111111|1289
+  safety glasses|kept|event|111111|799
+  said|kept|event|111111|767
+  said he|kept|event|110000|
+  same|kept|event|111111|441
+  saw|kept|event|111111|594
+  scheduled|kept|event|111111|606
+  scoop|kept|event|111111|1209
+  screen|kept|event|111111|1134
+  seat|kept|event|111111|519
+  second|kept|event|111111|481
+  section|kept|event|111111|1324
+  see|kept|event|111111|672
+  seek|kept|event|111111|451
+  seen|kept|event|111111|652
+  sent|kept|event|111111|536
+  set|kept|event|111111|806
+  setting|kept|event|111111|461
+  shaft|kept|event|111111|566
+  sharp|kept|event|111111|1341
+  she|kept|event|111111|525
+  shield|kept|event|111111|470
+  shift|kept|event|111111|1784
+  shifted|kept|event|111111|547
+  shop|kept|event|111111|566
+  shovel|kept|event|111111|669
+  shoveling|kept|event|111111|785
+  shuttle|kept|event|111111|637
+  shuttle car|kept|event|111111|623
+  side|kept|event|111111|3719
+  side of|kept|event|111111|1895
+  site|kept|event|000011|446
+  sledge|kept|event|111111|500
+  sledge hammer|kept|event|111111|476
+  slid|kept|event|111111|783
+  slipped|kept|event|111111|8890
+  slipped and|kept|event|111111|3033
+  slipped causing|kept|event|111111|442
+  slipped off|kept|event|111111|1031
+  slipped on|kept|event|111111|1500
+  slipped out|kept|event|111111|423
+  small|kept|event|111111|1603
+  so|kept|event|111111|1031
+  some|kept|event|111111|1379
+  something|kept|event|111111|878
+  sought|kept|event|111111|537
+  stairs|kept|event|111111|518
+  standing|kept|event|111111|1166
+  standing on|kept|event|111111|551
+  start|kept|event|111111|501
+  started|kept|event|111111|2106
+  started missing|kept|event|111111|451
+  started to|kept|event|111111|652
+  stated|kept|event|111111|2171
+  stated he|kept|event|111111|639
+  stated that|kept|event|111111|1007
+  states|kept|event|111111|763
+  steel|kept|event|111111|2340
+  step|kept|event|111111|1419
+  stepped|kept|event|111111|3178
+  stepped off|kept|event|011110|
+  stepped on|kept|event|111111|1188
+  stepping|kept|event|111111|826
+  steps|kept|event|111111|576
+  still|kept|event|111111|557
+  stone|kept|event|111111|770
+  stop|kept|event|111111|459
+  stopped|kept|event|111111|420
+  strike|kept|event|111111|565
+  striking|kept|event|111111|3352
+  striking him|kept|event|111111|681
+  striking his|kept|event|111111|554
+  striking the|kept|event|111111|758
+  struck|kept|event|111111|5810
+  struck by|kept|event|111111|445
+  struck ee|kept|event|000001|430
+  struck him|kept|event|111111|845
+  struck his|kept|event|111111|954
+  struck the|kept|event|111111|1225
+  structure|kept|event|111111|677
+  stuck|kept|event|111111|900
+  suffered|kept|event|111111|549
+  supervisor|kept|event|111111|613
+  support|kept|event|111111|468
+  surface|kept|event|111111|454
+  sustained|kept|event|111111|591
+  swung|kept|event|001001|442
+  tail|kept|event|111111|578
+  taking|kept|event|111111|599
+  tank|kept|event|111111|523
+  that|kept|event|111111|6874
+  that he|kept|event|111111|1261
+  that required|kept|event|111111|564
+  that the|kept|event|000111|425
+  that was|kept|event|111111|1259
+  the|kept|event|111111|40855
+  the bar|kept|event|111111|489
+  the belt|kept|event|111111|991
+  the bolt|kept|event|111111|617
+  the bottom|kept|event|111111|726
+  the bucket|kept|event|111111|489
+  the cab|kept|event|111111|463
+  the cable|kept|event|111111|574
+  the conveyor|kept|event|111111|427
+  the door|kept|event|111111|625
+  the drill|kept|event|111111|810
+  the ee|kept|event|111111|1873
+  the employee|kept|event|111111|6051
+  the end|kept|event|111111|782
+  the floor|kept|event|111111|536
+  the ground|kept|event|111111|2220
+  the hammer|kept|event|111111|435
+  the hose|kept|event|111111|447
+  the incident|kept|event|111111|498
+  the injured|kept|event|111111|1056
+  the injury|kept|event|111111|834
+  the knife|kept|event|111111|529
+  the ladder|kept|event|111111|618
+  the left|kept|event|111111|2153
+  the loader|kept|event|111111|543
+  the lower|kept|event|001001|435
+  the machine|kept|event|111111|502
+  the mine|kept|event|111111|877
+  the miner|kept|event|111111|1038
+  the next|kept|event|111111|710
+  the operator|kept|event|111111|716
+  the other|kept|event|111111|512
+  the pipe|kept|event|101111|423
+  the process|kept|event|111111|906
+  the right|kept|event|111111|2100
+  the rock|kept|event|111111|798
+  the roof|kept|event|111111|1130
+  the scoop|kept|event|111111|431
+  the side|kept|event|111111|675
+  the steel|kept|event|111111|475
+  the time|kept|event|111111|538
+  the tip|kept|event|111111|503
+  the top|kept|event|111111|1273
+  the truck|kept|event|111111|952
+  the wrench|kept|event|111110|
+  their|kept|event|011111|1042
+  them|kept|event|111111|565
+  then|kept|event|111111|1583
+  there|kept|event|111111|736
+  there was|kept|event|111111|481
+  they|kept|event|111111|1622
+  they were|kept|event|000001|439
+  this|kept|event|111111|4315
+  this caused|kept|event|111111|553
+  this resulted|kept|event|111111|535
+  three|kept|event|111111|486
+  through|kept|event|111111|1495
+  through the|kept|event|111111|570
+  tightening|kept|event|111111|451
+  time|kept|event|111111|3087
+  tip|kept|event|111111|887
+  tip of|kept|event|111111|596
+  tire|kept|event|111111|690
+  to|kept|event|111111|33854
+  to be|kept|event|111111|1243
+  to catch|kept|event|111111|565
+  to close|kept|event|111111|1037
+  to fall|kept|event|111111|1247
+  to get|kept|event|111111|1141
+  to go|kept|event|111111|414
+  to have|kept|event|111111|498
+  to his|kept|event|111111|1989
+  to lift|kept|event|100111|425
+  to move|kept|event|111111|766
+  to pick|kept|event|111111|458
+  to pull|kept|event|111111|545
+  to put|kept|event|111111|483
+  to remove|kept|event|111111|1196
+  to see|kept|event|111111|453
+  to strike|kept|event|000100|
+  to the|kept|event|111111|7678
+  to work|kept|event|111111|2646
+  took|kept|event|111111|672
+  tool|kept|event|111111|482
+  top|kept|event|111111|2941
+  top of|kept|event|111111|1703
+  torch|kept|event|111000|
+  track|kept|event|111111|977
+  trailer|kept|event|111111|607
+  transported|kept|event|111111|497
+  tried|kept|event|111111|875
+  tried to|kept|event|111111|825
+  tripped|kept|event|111111|1191
+  truck|kept|event|111111|4643
+  truck and|kept|event|111111|603
+  truck when|kept|event|111111|504
+  trying|kept|event|111111|1223
+  trying to|kept|event|111111|1213
+  turn|kept|event|111111|484
+  turned|kept|event|111111|1349
+  turning|kept|event|111100|
+  twist|kept|event|111111|462
+  twisted|kept|event|111111|2669
+  twisted his|kept|event|111111|1227
+  twisting|kept|event|111111|698
+  two|kept|event|111111|1664
+  under|kept|event|111111|2377
+  under the|kept|event|111111|731
+  unit|kept|event|111111|557
+  unloading|kept|event|111111|430
+  until|kept|event|111111|2939
+  up|kept|event|111111|7736
+  up and|kept|event|111111|844
+  up on|kept|event|111111|539
+  up the|kept|event|111111|774
+  up to|kept|event|111111|530
+  upper|kept|event|111111|973
+  used|kept|event|111111|978
+  using|kept|event|111111|4038
+  utility|kept|event|111111|552
+  utility knife|kept|event|111111|472
+  valve|kept|event|111111|648
+  vehicle|kept|event|000010|
+  walked|kept|event|111011|451
+  walking|kept|event|111111|3395
+  walking down|kept|event|111111|456
+  wall|kept|event|111111|568
+  was|kept|event|111111|43359
+  was assisting|kept|event|111111|550
+  was attempting|kept|event|111111|1078
+  was being|kept|event|111111|650
+  was carrying|kept|event|111111|468
+  was caught|kept|event|111111|587
+  was changing|kept|event|111111|632
+  was cleaning|kept|event|111111|854
+  was climbing|kept|event|111111|700
+  was cutting|kept|event|111111|946
+  was driving|kept|event|111111|513
+  was getting|kept|event|111111|548
+  was given|kept|event|111111|502
+  was helping|kept|event|111111|967
+  was holding|kept|event|111111|575
+  was in|kept|event|111111|1204
+  was installing|kept|event|111111|829
+  was lifting|kept|event|111111|979
+  was loading|kept|event|111111|596
+  was moving|kept|event|111111|839
+  was not|kept|event|111111|1300
+  was on|kept|event|111111|793
+  was operating|kept|event|111111|1454
+  was placed|kept|event|111111|566
+  was pulling|kept|event|111111|1147
+  was putting|kept|event|111111|459
+  was removing|kept|event|111111|1300
+  was seen|kept|event|001111|426
+  was shoveling|kept|event|111111|461
+  was standing|kept|event|111111|819
+  was stepping|kept|event|111111|451
+  was struck|kept|event|111111|762
+  was trying|kept|event|111111|562
+  was using|kept|event|111111|2294
+  was walking|kept|event|111111|2326
+  was wearing|kept|event|111111|819
+  was working|kept|event|111111|1565
+  water|kept|event|111111|1618
+  way|kept|event|111111|763
+  we|kept|event|001001|415
+  wearing|kept|event|111111|1085
+  weight|kept|event|111111|577
+  welding|kept|event|111111|831
+  went|kept|event|111111|3858
+  went to|kept|event|111111|2511
+  were|kept|event|111111|3630
+  wet|kept|event|111111|601
+  wheel|kept|event|111111|748
+  when|kept|event|111111|19213
+  when ee|kept|event|111111|1178
+  when employee|kept|event|000001|422
+  when he|kept|event|111111|6324
+  when his|kept|event|111111|901
+  when it|kept|event|111111|845
+  when piece|kept|event|111111|943
+  when rock|kept|event|111111|448
+  when the|kept|event|111111|3583
+  when they|kept|event|000001|442
+  where|kept|event|111111|1157
+  which|kept|event|111111|2501
+  while|kept|event|111111|11884
+  while walking|kept|event|111111|541
+  while working|kept|event|110100|
+  wind|kept|event|010000|
+  wire|kept|event|111111|571
+  with|kept|event|111111|11037
+  with hammer|kept|event|111111|501
+  with his|kept|event|111111|1010
+  with the|kept|event|111111|1311
+  work|kept|event|111111|6467
+  work on|kept|event|111111|1066
+  work until|kept|event|111111|694
+  worked|kept|event|111111|553
+  worker|kept|event|111111|1022
+  working|kept|event|111111|3063
+  working on|kept|event|111111|1402
+  wrench|kept|event|111111|1275
+  and cut|kept|nature|111111|1093
+  and strained|kept|nature|111111|550
+  bone|kept|nature|111111|647
+  broke|kept|nature|111111|2177
+  broken|kept|nature|111111|920
+  burn|kept|nature|111111|457
+  burns|kept|nature|111111|443
+  causing laceration|kept|nature|111111|1366
+  contusion|kept|nature|111111|709
+  cut|kept|nature|111111|3970
+  cut his|kept|nature|111111|945
+  cut the|kept|nature|010110|
+  fracture|kept|nature|111111|2039
+  fracture to|kept|nature|111111|767
+  fractured|kept|nature|111111|876
+  he strained|kept|nature|110000|
+  hernia|kept|nature|111111|497
+  in laceration|kept|nature|111111|587
+  laceration|kept|nature|111111|3757
+  laceration to|kept|nature|111111|1014
+  muscle|kept|nature|111111|1095
+  muscle in|kept|nature|111100|
+  smashed|kept|nature|111111|795
+  sprain|kept|nature|111111|661
+  sprained|kept|nature|111111|554
+  strain|kept|nature|111111|1775
+  strained|kept|nature|111111|1856
+  strained his|kept|nature|111111|892
+  to cut|kept|nature|111111|550
+  wound|kept|nature|111111|647
+  and felt|kept|symptom|111111|1681
+  ee felt|kept|symptom|011111|661
+  employee felt|kept|symptom|111111|613
+  felt|kept|symptom|111111|6857
+  felt pain|kept|symptom|111111|2982
+  felt pop|kept|symptom|111111|735
+  felt sharp|kept|symptom|111111|736
+  felt something|kept|symptom|110000|
+  he felt|kept|symptom|111111|2597
+  hurt|kept|symptom|111111|893
+  hurting|kept|symptom|111111|565
+  pain|kept|symptom|111111|7156
+  pain in|kept|symptom|111111|4823
+  pop|kept|symptom|111111|1352
+  pop in|kept|symptom|111111|840
+  popped|kept|symptom|011100|
+  sharp pain|kept|symptom|111111|892
+  clinic|kept|treatment|111111|500
+  diagnosed|kept|treatment|111111|1444
+  diagnosed with|kept|treatment|111111|1051
+  doctor|kept|treatment|111111|2231
+  dr|kept|treatment|111111|1249
+  er|kept|treatment|111111|861
+  evaluation|kept|treatment|000001|418
+  medical|kept|treatment|111111|2609
+  medical attention|kept|treatment|111111|696
+  medical treatment|kept|treatment|111111|905
+  mri|kept|treatment|111111|513
+  physical therapy|kept|treatment|111111|432
+  physician|kept|treatment|111111|636
+  prescribed|kept|treatment|111111|539
+  prescription|kept|treatment|111111|489
+  received stitches|kept|treatment|111111|486
+  required stitches|kept|treatment|111111|695
+  required sutures|kept|treatment|111111|472
+  requiring stitches|kept|treatment|111111|525
+  stitches|kept|treatment|111111|3434
+  stitches to|kept|treatment|111111|454
+  surgery|kept|treatment|111111|1500
+  surgery on|kept|treatment|111111|455
+  sutures|kept|treatment|111111|1955
+  sutures to|kept|treatment|000100|
+  taken|kept|treatment|111111|1815
+  taken to|kept|treatment|111111|1227
+  the doctor|kept|treatment|111111|757
+  therapy|kept|treatment|111111|532
+  to doctor|kept|treatment|110000|
+  treated|kept|treatment|111111|674
+  treatment|kept|treatment|111111|1668
+  was diagnosed|kept|treatment|111111|733
+  was taken|kept|treatment|111111|1367
+  was treated|kept|treatment|111110|
+  hospital|removed|event|111111|1103
+  light duty|removed|event|111111|477
+  lost time|removed|event|111111|804
+  off work|removed|event|111111|879
+  released|removed|event|111111|1364
+  released to|removed|event|111111|578
+  restricted duty|removed|event|111111|1138
+  the hospital|removed|event|011110|
+  was released|removed|event|111111|485
+  ###VOCAB_END###
+
+[6] Dışlanan kayıtlar ve maden bazında uyarılar
+  DAYS AWAY FROM WORK ONLY               83,581  L2
+  NO DYS AWY FRM WRK,NO RSTR ACT         67,777  L0
+  DAYS RESTRICTED ACTIVITY ONLY          40,853  L1
+  ACCIDENT ONLY                          29,280  EXCLUDED
+  DYS AWY FRM WRK & RESTRCTD ACT         19,609  L2
+  OCCUPATNAL ILLNESS NOT DEG 1-6          9,997  EXCLUDED
+  PERM TOT OR PERM PRTL DISABLTY          2,331  L3
+  ALL OTHER CASES (INCL 1ST AID)          2,024  L0
+  INJURIES DUE TO NATURAL CAUSES          1,410  EXCLUDED
+  FATALITY                                1,130  L3
+  NO VALUE FOUND                            910  EXCLUDED
+  INJURIES INVOLVNG NONEMPLOYEES            541  EXCLUDED
+  toplam 259,443 | dahil 217,305 | dışlanan 42,138
+  satır hizalaması (ham ↔ analiz verisi): TAMAM
+  2018-2023: kayıt 31,660 | farklı maden 4,670 | kayıt bildiren maden-yıl 11,015
+
+[7] Ağır sınıf: PR eğrisi, uyarı bütçesi, kalibrasyon, karar eğrisi (2018-2023)
+  Notification (structured only)       AP=0.145 [0.127, 0.165] | precision at recall≥0.50: 0.094 [0.088, 0.111] | ≥0.26: 0.187 | ≥0.76: 0.055
+  Structured + 100-term narrative      AP=0.199 [0.167, 0.237] | precision at recall≥0.50: 0.181 [0.144, 0.213] | ≥0.26: 0.263 | ≥0.76: 0.093
+  Structured + 1000-term narrative     AP=0.308 [0.263, 0.370] | precision at recall≥0.50: 0.249 [0.233, 0.305] | ≥0.26: 0.429 | ≥0.76: 0.127
+  Structured + 1000 event-only terms   AP=0.269 [0.234, 0.304] | precision at recall≥0.50: 0.190 [0.167, 0.216] | ≥0.26: 0.376 | ≥0.76: 0.086
+  Assessment                           AP=0.890 [0.866, 0.909] | precision at recall≥0.50: 1.000 [1.000, 1.000] | ≥0.26: 1.000 | ≥0.76: 0.952
+  prevalans (2018-2023) = 0.0173
+
+  Uyarı bütçesi (eşik = önceki yılın tahminlerinde en yüksek %b; sonra y yılına uygulanır)
+  Notification (structured only)       budget= 0.5% → alerts=  135 ( 0.4% of records, 22/yr) recall=0.077 [0.064, 0.101] precision=0.311 [0.245, 0.420] NNA=3.21 missed=506 of 548
+  Notification (structured only)       budget= 1.0% → alerts=  289 ( 0.9% of records, 48/yr) recall=0.137 [0.115, 0.169] precision=0.260 [0.235, 0.293] NNA=3.85 missed=473 of 548
+  Notification (structured only)       budget= 2.0% → alerts=  591 ( 1.9% of records, 98/yr) recall=0.234 [0.197, 0.273] precision=0.217 [0.192, 0.247] NNA=4.62 missed=420 of 548
+  Notification (structured only)       budget= 5.0% → alerts= 1566 ( 4.9% of records, 261/yr) recall=0.396 [0.358, 0.432] precision=0.139 [0.125, 0.155] NNA=7.22 missed=331 of 548
+  Notification (structured only)       budget=10.0% → alerts= 3217 (10.2% of records, 536/yr) recall=0.531 [0.481, 0.592] precision=0.090 [0.085, 0.098] NNA=11.05 missed=257 of 548
+  Notification (structured only)       budget=20.0% → alerts= 6370 (20.1% of records, 1062/yr) recall=0.728 [0.707, 0.753] precision=0.063 [0.059, 0.067] NNA=15.96 missed=149 of 548
+  Structured + 100-term narrative      budget= 0.5% → alerts=  162 ( 0.5% of records, 27/yr) recall=0.100 [0.083, 0.121] precision=0.340 [0.248, 0.470] NNA=2.95 missed=493 of 548
+  Structured + 100-term narrative      budget= 1.0% → alerts=  337 ( 1.1% of records, 56/yr) recall=0.184 [0.152, 0.227] precision=0.300 [0.251, 0.355] NNA=3.34 missed=447 of 548
+  Structured + 100-term narrative      budget= 2.0% → alerts=  648 ( 2.0% of records, 108/yr) recall=0.292 [0.235, 0.346] precision=0.247 [0.210, 0.285] NNA=4.05 missed=388 of 548
+  Structured + 100-term narrative      budget= 5.0% → alerts= 1625 ( 5.1% of records, 271/yr) recall=0.509 [0.475, 0.547] precision=0.172 [0.160, 0.187] NNA=5.82 missed=269 of 548
+  Structured + 100-term narrative      budget=10.0% → alerts= 3186 (10.1% of records, 531/yr) recall=0.651 [0.618, 0.682] precision=0.112 [0.104, 0.120] NNA=8.92 missed=191 of 548
+  Structured + 100-term narrative      budget=20.0% → alerts= 6363 (20.1% of records, 1060/yr) recall=0.836 [0.823, 0.847] precision=0.072 [0.068, 0.075] NNA=13.89 missed=90 of 548
+  Structured + 1000-term narrative     budget= 0.5% → alerts=  151 ( 0.5% of records, 25/yr) recall=0.153 [0.129, 0.185] precision=0.556 [0.500, 0.637] NNA=1.80 missed=464 of 548
+  Structured + 1000-term narrative     budget= 1.0% → alerts=  303 ( 1.0% of records, 50/yr) recall=0.241 [0.218, 0.266] precision=0.436 [0.370, 0.529] NNA=2.30 missed=416 of 548
+  Structured + 1000-term narrative     budget= 2.0% → alerts=  641 ( 2.0% of records, 107/yr) recall=0.387 [0.333, 0.446] precision=0.331 [0.301, 0.368] NNA=3.02 missed=336 of 548
+  Structured + 1000-term narrative     budget= 5.0% → alerts= 1592 ( 5.0% of records, 265/yr) recall=0.608 [0.567, 0.653] precision=0.209 [0.191, 0.226] NNA=4.78 missed=215 of 548
+  Structured + 1000-term narrative     budget=10.0% → alerts= 3138 ( 9.9% of records, 523/yr) recall=0.757 [0.732, 0.780] precision=0.132 [0.124, 0.140] NNA=7.56 missed=133 of 548
+  Structured + 1000-term narrative     budget=20.0% → alerts= 6340 (20.0% of records, 1057/yr) recall=0.867 [0.832, 0.899] precision=0.075 [0.073, 0.078] NNA=13.35 missed=73 of 548
+  Structured + 1000 event-only terms   budget= 0.5% → alerts=  170 ( 0.5% of records, 28/yr) recall=0.159 [0.121, 0.197] precision=0.512 [0.476, 0.536] NNA=1.95 missed=461 of 548
+  Structured + 1000 event-only terms   budget= 1.0% → alerts=  325 ( 1.0% of records, 54/yr) recall=0.230 [0.186, 0.271] precision=0.388 [0.352, 0.424] NNA=2.58 missed=422 of 548
+  Structured + 1000 event-only terms   budget= 2.0% → alerts=  647 ( 2.0% of records, 108/yr) recall=0.338 [0.281, 0.395] precision=0.286 [0.240, 0.332] NNA=3.50 missed=363 of 548
+  Structured + 1000 event-only terms   budget= 5.0% → alerts= 1558 ( 4.9% of records, 260/yr) recall=0.515 [0.484, 0.545] precision=0.181 [0.168, 0.194] NNA=5.52 missed=266 of 548
+  Structured + 1000 event-only terms   budget=10.0% → alerts= 3103 ( 9.8% of records, 517/yr) recall=0.695 [0.650, 0.738] precision=0.123 [0.115, 0.131] NNA=8.14 missed=167 of 548
+  Structured + 1000 event-only terms   budget=20.0% → alerts= 6201 (19.6% of records, 1034/yr) recall=0.810 [0.774, 0.840] precision=0.072 [0.066, 0.077] NNA=13.97 missed=104 of 548
+
+  Kalibrasyon (Platt ölçekleme önceki yılın tahminlerinde kurulur) ve karar eğrisi
+  Notification (structured only)
+    raw           mean predicted=0.0127 observed=0.0173 slope=0.83 intercept=-0.22 Brier=0.01587 ECE=0.0046
+    recalibrated  mean predicted=0.0162 observed=0.0173 slope=0.98 intercept=-0.01 Brier=0.01588 ECE=0.0016
+    reliability (recalibrated) [lo, hi, n, mean predicted, observed]: [[0, 0.005, 14356, 0.0024, 0.0027], [0.005, 0.01, 6413, 0.0072, 0.007], [0.01, 0.02, 4727, 0.0139, 0.0159], [0.02, 0.05, 3914, 0.0315, 0.0347], [0.05, 0.1, 1413, 0.0687, 0.0736], [0.1, 0.2, 637, 0.1358, 0.1523], [0.2, 0.5, 184, 0.2775, 0.2391], [0.5, 1.0, 16, 0.5744, 0.5]]
+      pt=0.005 (FN:FP≈199:1) alerts=17304 tp=509 missed=39 NNA=34.00 NB=+0.01341 [+0.01219, +0.01464] NB_all=+0.01237
+      pt=0.010 (FN:FP≈99:1) alerts=10891 tp=464 missed=84 NNA=23.47 NB=+0.01133 [+0.01011, +0.01254] NB_all=+0.00738
+      pt=0.015 (FN:FP≈66:1) alerts=7764 tp=427 missed=121 NNA=18.18 NB=+0.00996 [+0.00900, +0.01094] NB_all=+0.00234
+      pt=0.020 (FN:FP≈49:1) alerts=6164 tp=389 missed=159 NNA=15.85 NB=+0.00856 [+0.00763, +0.00944] NB_all=-0.00275
+      pt=0.030 (FN:FP≈32:1) alerts=4212 tp=335 missed=213 NNA=12.57 NB=+0.00679 [+0.00585, +0.00759] NB_all=-0.01308
+      pt=0.040 (FN:FP≈24:1) alerts=2992 tp=277 missed=271 NNA=10.80 NB=+0.00518 [+0.00462, +0.00586] NB_all=-0.02364
+      pt=0.050 (FN:FP≈19:1) alerts=2250 tp=253 missed=295 NNA=8.89 NB=+0.00467 [+0.00423, +0.00514] NB_all=-0.03441
+      pt=0.075 (FN:FP≈12:1) alerts=1294 tp=193 missed=355 NNA=6.70 NB=+0.00328 [+0.00257, +0.00406] NB_all=-0.06237
+      pt=0.100 (FN:FP≈9:1) alerts=837 tp=149 missed=399 NNA=5.62 NB=+0.00229 [+0.00161, +0.00308] NB_all=-0.09188
+      pt=0.150 (FN:FP≈6:1) alerts=386 tp=90 missed=458 NNA=4.29 NB=+0.00119 [+0.00079, +0.00155] NB_all=-0.15611
+      pt=0.200 (FN:FP≈4:1) alerts=200 tp=52 missed=496 NNA=3.85 NB=+0.00047 [+0.00014, +0.00074] NB_all=-0.22836
+      pt=0.300 (FN:FP≈2:1) alerts=75 tp=28 missed=520 NNA=2.68 NB=+0.00025 [-0.00007, +0.00058] NB_all=-0.40384
+      pt=0.500 (FN:FP≈1:1) alerts=16 tp=8 missed=540 NNA=2.00 NB=+0.00000 [-0.00013, +0.00012] NB_all=-0.96538
+  Structured + 100-term narrative
+    raw           mean predicted=0.0104 observed=0.0173 slope=0.85 intercept=+0.10 Brier=0.01538 ECE=0.0069
+    recalibrated  mean predicted=0.0166 observed=0.0173 slope=0.96 intercept=-0.08 Brier=0.01532 ECE=0.0018
+    reliability (recalibrated) [lo, hi, n, mean predicted, observed]: [[0, 0.005, 18072, 0.0019, 0.0018], [0.005, 0.01, 4783, 0.0071, 0.0075], [0.01, 0.02, 3644, 0.0141, 0.014], [0.02, 0.05, 2834, 0.0313, 0.0406], [0.05, 0.1, 1251, 0.0702, 0.0695], [0.1, 0.2, 662, 0.1407, 0.1662], [0.2, 0.5, 371, 0.2997, 0.2642], [0.5, 1.0, 43, 0.6121, 0.4419]]
+      pt=0.005 (FN:FP≈199:1) alerts=13588 tp=516 missed=32 NNA=26.33 NB=+0.01422 [+0.01336, +0.01530] NB_all=+0.01237
+      pt=0.010 (FN:FP≈99:1) alerts=8805 tp=480 missed=68 NNA=18.34 NB=+0.01251 [+0.01150, +0.01345] NB_all=+0.00738
+      pt=0.015 (FN:FP≈66:1) alerts=6521 tp=454 missed=94 NNA=14.36 NB=+0.01142 [+0.01048, +0.01241] NB_all=+0.00234
+      pt=0.020 (FN:FP≈49:1) alerts=5161 tp=429 missed=119 NNA=12.03 NB=+0.01050 [+0.00961, +0.01138] NB_all=-0.00275
+      pt=0.030 (FN:FP≈32:1) alerts=3705 tp=381 missed=167 NNA=9.72 NB=+0.00879 [+0.00787, +0.00973] NB_all=-0.01308
+      pt=0.040 (FN:FP≈24:1) alerts=2875 tp=336 missed=212 NNA=8.56 NB=+0.00727 [+0.00655, +0.00803] NB_all=-0.02364
+      pt=0.050 (FN:FP≈19:1) alerts=2327 tp=314 missed=234 NNA=7.41 NB=+0.00657 [+0.00547, +0.00753] NB_all=-0.03441
+      pt=0.075 (FN:FP≈12:1) alerts=1526 tp=267 missed=281 NNA=5.72 NB=+0.00521 [+0.00455, +0.00590] NB_all=-0.06237
+      pt=0.100 (FN:FP≈9:1) alerts=1076 tp=227 missed=321 NNA=4.74 NB=+0.00419 [+0.00353, +0.00494] NB_all=-0.09188
+      pt=0.150 (FN:FP≈6:1) alerts=649 tp=160 missed=388 NNA=4.06 NB=+0.00233 [+0.00142, +0.00308] NB_all=-0.15611
+      pt=0.200 (FN:FP≈4:1) alerts=414 tp=117 missed=431 NNA=3.54 NB=+0.00135 [+0.00069, +0.00189] NB_all=-0.22836
+      pt=0.300 (FN:FP≈2:1) alerts=192 tp=64 missed=484 NNA=3.00 NB=+0.00029 [-0.00057, +0.00108] NB_all=-0.40384
+      pt=0.500 (FN:FP≈1:1) alerts=43 tp=19 missed=529 NNA=2.26 NB=-0.00016 [-0.00061, +0.00026] NB_all=-0.96538
+  Structured + 1000-term narrative
+    raw           mean predicted=0.0086 observed=0.0173 slope=0.88 intercept=+0.49 Brier=0.01444 ECE=0.0087
+    recalibrated  mean predicted=0.0163 observed=0.0173 slope=0.98 intercept=+0.01 Brier=0.01411 ECE=0.0016
+    reliability (recalibrated) [lo, hi, n, mean predicted, observed]: [[0, 0.005, 20735, 0.0016, 0.0014], [0.005, 0.01, 3789, 0.0071, 0.0074], [0.01, 0.02, 2783, 0.0142, 0.0183], [0.02, 0.05, 2255, 0.0311, 0.0346], [0.05, 0.1, 966, 0.0704, 0.0839], [0.1, 0.2, 603, 0.1388, 0.1592], [0.2, 0.5, 428, 0.303, 0.2967], [0.5, 1.0, 101, 0.6539, 0.5644]]
+      pt=0.005 (FN:FP≈199:1) alerts=10925 tp=518 missed=30 NNA=21.09 NB=+0.01471 [+0.01375, +0.01561] NB_all=+0.01237
+      pt=0.010 (FN:FP≈99:1) alerts=7136 tp=490 missed=58 NNA=14.56 NB=+0.01336 [+0.01255, +0.01421] NB_all=+0.00738
+      pt=0.015 (FN:FP≈66:1) alerts=5408 tp=464 missed=84 NNA=11.66 NB=+0.01228 [+0.01136, +0.01322] NB_all=+0.00234
+      pt=0.020 (FN:FP≈49:1) alerts=4353 tp=439 missed=109 NNA=9.92 NB=+0.01134 [+0.01041, +0.01218] NB_all=-0.00275
+      pt=0.030 (FN:FP≈32:1) alerts=3149 tp=408 missed=140 NNA=7.72 NB=+0.01021 [+0.00950, +0.01089] NB_all=-0.01308
+      pt=0.040 (FN:FP≈24:1) alerts=2530 tp=383 missed=165 NNA=6.61 NB=+0.00927 [+0.00856, +0.00998] NB_all=-0.02364
+      pt=0.050 (FN:FP≈19:1) alerts=2098 tp=361 missed=187 NNA=5.81 NB=+0.00851 [+0.00771, +0.00926] NB_all=-0.03441
+      pt=0.075 (FN:FP≈12:1) alerts=1474 tp=321 missed=227 NNA=4.59 NB=+0.00719 [+0.00643, +0.00790] NB_all=-0.06237
+      pt=0.100 (FN:FP≈9:1) alerts=1132 tp=280 missed=268 NNA=4.04 NB=+0.00585 [+0.00521, +0.00654] NB_all=-0.09188
+      pt=0.150 (FN:FP≈6:1) alerts=736 tp=226 missed=322 NNA=3.26 NB=+0.00430 [+0.00345, +0.00527] NB_all=-0.15611
+      pt=0.200 (FN:FP≈4:1) alerts=529 tp=184 missed=364 NNA=2.88 NB=+0.00309 [+0.00234, +0.00408] NB_all=-0.22836
+      pt=0.300 (FN:FP≈2:1) alerts=274 tp=124 missed=424 NNA=2.21 NB=+0.00189 [+0.00117, +0.00271] NB_all=-0.40384
+      pt=0.500 (FN:FP≈1:1) alerts=101 tp=57 missed=491 NNA=1.77 NB=+0.00041 [-0.00003, +0.00086] NB_all=-0.96538
+  Structured + 1000 event-only terms
+    raw           mean predicted=0.0086 observed=0.0173 slope=0.90 intercept=+0.48 Brier=0.01485 ECE=0.0087
+    recalibrated  mean predicted=0.0162 observed=0.0173 slope=0.98 intercept=+0.03 Brier=0.01457 ECE=0.0023
+    reliability (recalibrated) [lo, hi, n, mean predicted, observed]: [[0, 0.005, 17980, 0.002, 0.0023], [0.005, 0.01, 5252, 0.0071, 0.0076], [0.01, 0.02, 3700, 0.0141, 0.0124], [0.02, 0.05, 2721, 0.031, 0.0331], [0.05, 0.1, 1014, 0.0693, 0.0986], [0.1, 0.2, 548, 0.1391, 0.1423], [0.2, 0.5, 376, 0.2974, 0.2739], [0.5, 1.0, 69, 0.638, 0.7101]]
+      pt=0.005 (FN:FP≈199:1) alerts=13680 tp=506 missed=42 NNA=27.04 NB=+0.01389 [+0.01293, +0.01484] NB_all=+0.01237
+      pt=0.010 (FN:FP≈99:1) alerts=8428 tp=466 missed=82 NNA=18.09 NB=+0.01218 [+0.01106, +0.01323] NB_all=+0.00738
+      pt=0.015 (FN:FP≈66:1) alerts=6091 tp=437 missed=111 NNA=13.94 NB=+0.01108 [+0.01000, +0.01219] NB_all=+0.00234
+      pt=0.020 (FN:FP≈49:1) alerts=4728 tp=420 missed=128 NNA=11.26 NB=+0.01049 [+0.00931, +0.01157] NB_all=-0.00275
+      pt=0.030 (FN:FP≈32:1) alerts=3268 tp=383 missed=165 NNA=8.53 NB=+0.00928 [+0.00842, +0.01027] NB_all=-0.01308
+      pt=0.040 (FN:FP≈24:1) alerts=2497 tp=356 missed=192 NNA=7.01 NB=+0.00843 [+0.00758, +0.00944] NB_all=-0.02364
+      pt=0.050 (FN:FP≈19:1) alerts=2007 tp=330 missed=218 NNA=6.08 NB=+0.00764 [+0.00698, +0.00844] NB_all=-0.03441
+      pt=0.075 (FN:FP≈12:1) alerts=1331 tp=261 missed=287 NNA=5.10 NB=+0.00550 [+0.00482, +0.00611] NB_all=-0.06237
+      pt=0.100 (FN:FP≈9:1) alerts=993 tp=230 missed=318 NNA=4.32 NB=+0.00459 [+0.00364, +0.00545] NB_all=-0.09188
+      pt=0.150 (FN:FP≈6:1) alerts=622 tp=180 missed=368 NNA=3.46 NB=+0.00322 [+0.00211, +0.00426] NB_all=-0.15611
+      pt=0.200 (FN:FP≈4:1) alerts=445 tp=152 missed=396 NNA=2.93 NB=+0.00249 [+0.00152, +0.00343] NB_all=-0.22836
+      pt=0.300 (FN:FP≈2:1) alerts=221 tp=97 missed=451 NNA=2.28 NB=+0.00139 [+0.00086, +0.00185] NB_all=-0.40384
+      pt=0.500 (FN:FP≈1:1) alerts=69 tp=49 missed=499 NNA=1.41 NB=+0.00092 [+0.00072, +0.00106] NB_all=-0.96538
+
+  Maden ve zaman bazında uyarı oranı (2018-2023)
+  Structured + 100-term, argmax                alerts=97 (16/yr, 0.3/week) | alerted mine-years=95 of 11015 (0.9%) | max alerts in one mine-year=2 | mine-years with 1 alert=93
+  Structured + 100-term, prior-year F1 thr     alerts=982 (164/yr, 3.1/week) | alerted mine-years=905 of 11015 (8.2%) | max alerts in one mine-year=6 | mine-years with 1 alert=847
+  Structured + 1000-term, prior-year F1 thr    alerts=668 (111/yr, 2.1/week) | alerted mine-years=620 of 11015 (5.6%) | max alerts in one mine-year=3 | mine-years with 1 alert=575
+  Notification, prior-year F1 thr              alerts=795 (132/yr, 2.5/week) | alerted mine-years=713 of 11015 (6.5%) | max alerts in one mine-year=4 | mine-years with 1 alert=650
+  N budget 2%                                  alerts=591 (98/yr, 1.9/week) | alerted mine-years=550 of 11015 (5.0%) | max alerts in one mine-year=3 | mine-years with 1 alert=516
+  N budget 5%                                  alerts=1566 (261/yr, 5.0/week) | alerted mine-years=1345 of 11015 (12.2%) | max alerts in one mine-year=6 | mine-years with 1 alert=1188
+  S100 budget 2%                               alerts=648 (108/yr, 2.1/week) | alerted mine-years=612 of 11015 (5.6%) | max alerts in one mine-year=4 | mine-years with 1 alert=582
+  S1000 budget 2%                              alerts=641 (107/yr, 2.1/week) | alerted mine-years=601 of 11015 (5.5%) | max alerts in one mine-year=3 | mine-years with 1 alert=565
+
+###JSON_BEGIN###
+{"annual":{"N":[0.4319,0.4242,0.4279,0.4188,0.4075,0.4196,0.4319,0.4329,0.4185,0.4211,0.4287,0.4414,0.4257,0.3991,0.4195,0.4124,0.4132,0.4306],"S":[0.4669,0.4874,0.4774,0.4695,0.4653,0.4563,0.5011,0.4731,0.468,0.4653,0.4557,0.4965,0.472,0.4486,0.4682,0.4699,0.4468,0.4672],"B":[0.6545,0.6644,0.6695,0.6792,0.6553,0.6673,0.6789,0.6815,0.6643,0.6708,0.6853,0.6729,0.6884,0.6566,0.6652,0.6654,0.6663,0.6618],"L":[0.9983,0.9946,0.9972,0.9978,0.9978,0.9981,0.9992,0.9986,0.9998,0.9989,0.9999,0.9982,0.9995,0.997,0.9998,0.9997,0.9983,0.9966]},"cm_N":[[27212,2781,13988,47],[7562,7219,12191,32],[11356,5413,46396,106],[616,212,1295,99]],"cm_S":[[29653,2779,11515,81],[6473,8814,11675,42],[9266,5498,48405,102],[580,231,1258,153]],"grid":[0.02,0.04,0.06,0.08,0.1,0.12,0.14,0.16,0.18,0.2,0.22,0.24,0.26,0.28,0.3,0.32,0.34,0.36,0.38,0.4,0.42,0.44,0.46,0.48,0.5,0.52,0.54,0.56,0.58,0.6,0.62,0.64,0.66,0.68,0.7,0.72,0.74,0.76,0.78,0.8,0.82,0.84,0.86,0.88,0.9,0.92,0.94,0.96,0.98,1.0],"pr":{"N":{"p":[0.5357,0.4583,0.407,0.2805,0.275,0.2674,0.2584,0.2373,0.2265,0.2265,0.2142,0.2075,0.1874,0.177,0.1724,0.165,0.1603,0.1516,0.1452,0.1336,0.1265,0.1136,0.1065,0.1013,0.0944,0.0944,0.0909,0.0899,0.086,0.0813,0.0784,0.0749,0.073,0.0691,0.0663,0.0637,0.0596,0.0552,0.0544,0.0499,0.0482,0.0451,0.0405,0.0373,0.0354,0.0308,0.026,0.0243,0.0221,0.0179],"lo":[0.3878,0.3289,0.2769,0.2475,0.2475,0.2463,0.2309,0.1982,0.1969,0.1856,0.1674,0.159,0.1549,0.1522,0.1485,0.1424,0.1387,0.1328,0.1251,0.1191,0.1077,0.0969,0.0924,0.0894,0.0879,0.0848,0.0827,0.0798,0.0756,0.0727,0.0698,0.0669,0.0644,0.0629,0.0606,0.0544,0.0516,0.0493,0.0452,0.0411,0.0367,0.0348,0.0342,0.0325,0.0284,0.0253,0.023,0.0224,0.0202,0.0169],"hi":[0.9286,0.6579,0.5626,0.3548,0.3229,0.3,0.288,0.2832,0.2762,0.2667,0.2595,0.2562,0.2465,0.2447,0.2238,0.2036,0.1918,0.1857,0.1768,0.1589,0.1464,0.1362,0.1236,0.1148,0.1107,0.1042,0.1015,0.1,0.0969,0.0927,0.0863,0.0832,0.0817,0.0785,0.0748,0.0705,0.0669,0.0633,0.0591,0.057,0.0535,0.0522,0.05,0.045,0.0422,0.0384,0.0325,0.0271,0.0253,0.0197]},"S100":{"p":[0.7222,0.5349,0.4783,0.4273,0.3836,0.3367,0.3223,0.301,0.2962,0.2926,0.2814,0.2644,0.2625,0.2625,0.2455,0.2393,0.2393,0.2357,0.216,0.212,0.2111,0.2053,0.1983,0.1893,0.1805,0.1628,0.1537,0.1429,0.1333,0.1273,0.1184,0.1165,0.1112,0.1088,0.1063,0.099,0.0962,0.0926,0.0861,0.0812,0.0766,0.0703,0.0594,0.0566,0.0475,0.0425,0.0395,0.0338,0.0241,0.0187],"lo":[0.5667,0.4259,0.3182,0.2795,0.267,0.2561,0.2494,0.2488,0.2447,0.2324,0.2283,0.2258,0.2246,0.2178,0.2176,0.2161,0.2107,0.1984,0.1955,0.191,0.1862,0.1815,0.1723,0.1576,0.1435,0.1292,0.1218,0.1215,0.1171,0.11,0.1059,0.1034,0.1001,0.0933,0.0914,0.0898,0.0861,0.0837,0.0799,0.0738,0.0695,0.0618,0.0535,0.0447,0.0414,0.0385,0.0343,0.0258,0.0222,0.0178],"hi":[0.9231,0.6579,0.6,0.6,0.5862,0.5038,0.4105,0.3932,0.3533,0.3435,0.3379,0.3248,0.3167,0.309,0.2979,0.281,0.273,0.2674,0.2629,0.2423,0.2393,0.2365,0.2293,0.225,0.2128,0.1973,0.1831,0.1735,0.1633,0.1504,0.1402,0.1289,0.1249,0.1204,0.1175,0.1149,0.107,0.1015,0.0947,0.0862,0.0835,0.0761,0.071,0.0612,0.0579,0.0492,0.0428,0.0399,0.0327,0.0207]},"S1000":{"p":[0.9231,0.8148,0.8095,0.6377,0.5944,0.5944,0.5944,0.5652,0.544,0.4779,0.4715,0.4602,0.429,0.4118,0.3667,0.3611,0.3576,0.3536,0.3443,0.3136,0.3056,0.2888,0.2666,0.2507,0.2489,0.2464,0.2418,0.232,0.2243,0.2179,0.1977,0.1806,0.1701,0.1605,0.156,0.147,0.1406,0.1272,0.1202,0.1084,0.0995,0.0874,0.0786,0.0731,0.0632,0.0574,0.0522,0.0416,0.0298,0.018],"lo":[0.8,0.625,0.5763,0.5496,0.5484,0.5441,0.5124,0.43,0.4135,0.4086,0.3923,0.3351,0.3296,0.3263,0.3256,0.3197,0.3067,0.29,0.2847,0.2569,0.2443,0.2356,0.2347,0.234,0.2326,0.2211,0.2082,0.2014,0.1809,0.1714,0.163,0.1559,0.1519,0.1494,0.1427,0.1339,0.1185,0.1061,0.0934,0.0839,0.0768,0.0738,0.0696,0.0607,0.0568,0.0517,0.0428,0.0346,0.0231,0.0168],"hi":[1.0,0.96,0.8772,0.8679,0.8169,0.6718,0.6714,0.6712,0.6623,0.6455,0.6256,0.563,0.5459,0.5398,0.4957,0.473,0.4558,0.4093,0.405,0.399,0.3907,0.3829,0.3485,0.331,0.3054,0.2789,0.2713,0.2629,0.2571,0.2512,0.2463,0.2365,0.2148,0.1945,0.1792,0.1652,0.1501,0.1432,0.1334,0.1248,0.1134,0.1072,0.0961,0.0865,0.0741,0.0661,0.0571,0.0503,0.0418,0.02]},"S1000E":{"p":[0.9375,0.8621,0.7955,0.6571,0.6413,0.5841,0.5448,0.5333,0.4878,0.4198,0.402,0.3827,0.3763,0.3312,0.3094,0.3005,0.2881,0.2639,0.2482,0.2436,0.2317,0.2161,0.204,0.1961,0.1899,0.1799,0.176,0.1716,0.1625,0.1584,0.1517,0.1427,0.1345,0.1293,0.1215,0.1087,0.0966,0.0864,0.0814,0.0744,0.0681,0.0642,0.0553,0.0462,0.0431,0.038,0.0331,0.0301,0.026,0.0175],"lo":[0.8571,0.7907,0.6462,0.5952,0.5714,0.5191,0.4329,0.3957,0.3636,0.3236,0.3125,0.2579,0.2527,0.2492,0.2451,0.2334,0.2231,0.2211,0.2145,0.2073,0.1911,0.1856,0.1776,0.1715,0.1669,0.1648,0.1625,0.1561,0.1486,0.1378,0.1298,0.1242,0.1125,0.099,0.09,0.0811,0.0752,0.0715,0.0662,0.0608,0.0531,0.0499,0.0423,0.0402,0.0379,0.0346,0.0301,0.0268,0.0222,0.0167],"hi":[1.0,0.9583,0.9048,0.7895,0.7294,0.6771,0.6029,0.5926,0.5739,0.5473,0.5221,0.4608,0.4464,0.4374,0.4271,0.3996,0.3691,0.3624,0.3485,0.3025,0.2742,0.2579,0.2385,0.2188,0.2159,0.2073,0.1994,0.1926,0.1826,0.1774,0.1698,0.1655,0.1618,0.1521,0.1404,0.1378,0.1292,0.1152,0.1027,0.09,0.0856,0.0755,0.069,0.0607,0.0494,0.044,0.0379,0.0321,0.0292,0.0202]},"B":{"p":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.9968,0.9938,0.9851,0.9834,0.9834,0.982,0.982,0.9796,0.9729,0.9623,0.9523,0.911,0.8728,0.8318,0.7352,0.6719,0.5869,0.5195,0.4302,0.3195,0.2297,0.0752,0.0193],"lo":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.9904,0.9901,0.9866,0.9783,0.973,0.9714,0.9714,0.9707,0.9695,0.9562,0.9322,0.912,0.876,0.834,0.8007,0.7065,0.6502,0.5328,0.4657,0.4233,0.3115,0.218,0.1269,0.0421,0.0187],"hi":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.9971,0.9941,0.9922,0.991,0.9903,0.9882,0.9859,0.9821,0.976,0.9442,0.9131,0.8421,0.7526,0.685,0.6109,0.5671,0.4353,0.3255,0.2293,0.0306]}},"ap":{"N":[0.1447,0.1266,0.1649],"S100":[0.1995,0.1674,0.2375],"S1000":[0.3082,0.2629,0.3701],"S1000E":[0.2689,0.2338,0.3041],"B":[0.8898,0.866,0.909]},"dca":{"pt":[0.005,0.01,0.015,0.02,0.03,0.04,0.05,0.075,0.1,0.15,0.2,0.3,0.5],"all":[0.01237,0.00738,0.00234,-0.00275,-0.01308,-0.02364,-0.03441,-0.06237,-0.09188,-0.15611,-0.22836,-0.40384,-0.96538],"N":{"nb":[0.01341,0.01133,0.00996,0.00856,0.00679,0.00518,0.00467,0.00328,0.00229,0.00119,0.00047,0.00025,0.0],"lo":[0.01219,0.01011,0.009,0.00763,0.00585,0.00462,0.00423,0.00257,0.00161,0.00079,0.00014,-7e-05,-0.00013],"hi":[0.01464,0.01254,0.01094,0.00944,0.00759,0.00586,0.00514,0.00406,0.00308,0.00155,0.00074,0.00058,0.00012]},"S100":{"nb":[0.01422,0.01251,0.01142,0.0105,0.00879,0.00727,0.00657,0.00521,0.00419,0.00233,0.00135,0.00029,-0.00016],"lo":[0.01336,0.0115,0.01048,0.00961,0.00787,0.00655,0.00547,0.00455,0.00353,0.00142,0.00069,-0.00057,-0.00061],"hi":[0.0153,0.01345,0.01241,0.01138,0.00973,0.00803,0.00753,0.0059,0.00494,0.00308,0.00189,0.00108,0.00026]},"S1000":{"nb":[0.01471,0.01336,0.01228,0.01134,0.01021,0.00927,0.00851,0.00719,0.00585,0.0043,0.00309,0.00189,0.00041],"lo":[0.01375,0.01255,0.01136,0.01041,0.0095,0.00856,0.00771,0.00643,0.00521,0.00345,0.00234,0.00117,-3e-05],"hi":[0.01561,0.01421,0.01322,0.01218,0.01089,0.00998,0.00926,0.0079,0.00654,0.00527,0.00408,0.00271,0.00086]},"S1000E":{"nb":[0.01389,0.01218,0.01108,0.01049,0.00928,0.00843,0.00764,0.0055,0.00459,0.00322,0.00249,0.00139,0.00092],"lo":[0.01293,0.01106,0.01,0.00931,0.00842,0.00758,0.00698,0.00482,0.00364,0.00211,0.00152,0.00086,0.00072],"hi":[0.01484,0.01323,0.01219,0.01157,0.01027,0.00944,0.00844,0.00611,0.00545,0.00426,0.00343,0.00185,0.00106]}},"cal":{"N":{"raw":{"mean_pred":0.01271,"prev":0.01731,"brier":0.01587,"slope":0.83303,"intercept":-0.2181,"ece":0.0046},"cal":{"mean_pred":0.01623,"prev":0.01731,"brier":0.01588,"slope":0.97603,"intercept":-0.00724,"ece":0.00161},"bins":[[0,0.005,14356,0.0024,0.0027],[0.005,0.01,6413,0.0072,0.007],[0.01,0.02,4727,0.0139,0.0159],[0.02,0.05,3914,0.0315,0.0347],[0.05,0.1,1413,0.0687,0.0736],[0.1,0.2,637,0.1358,0.1523],[0.2,0.5,184,0.2775,0.2391],[0.5,1.0,16,0.5744,0.5]]},"S100":{"raw":{"mean_pred":0.0104,"prev":0.01731,"brier":0.01538,"slope":0.8474,"intercept":0.10243,"ece":0.00691},"cal":{"mean_pred":0.01664,"prev":0.01731,"brier":0.01532,"slope":0.95788,"intercept":-0.07631,"ece":0.0018},"bins":[[0,0.005,18072,0.0019,0.0018],[0.005,0.01,4783,0.0071,0.0075],[0.01,0.02,3644,0.0141,0.014],[0.02,0.05,2834,0.0313,0.0406],[0.05,0.1,1251,0.0702,0.0695],[0.1,0.2,662,0.1407,0.1662],[0.2,0.5,371,0.2997,0.2642],[0.5,1.0,43,0.6121,0.4419]]},"S1000":{"raw":{"mean_pred":0.00857,"prev":0.01731,"brier":0.01444,"slope":0.87765,"intercept":0.49443,"ece":0.00875},"cal":{"mean_pred":0.01634,"prev":0.01731,"brier":0.01411,"slope":0.97607,"intercept":0.00828,"ece":0.00157},"bins":[[0,0.005,20735,0.0016,0.0014],[0.005,0.01,3789,0.0071,0.0074],[0.01,0.02,2783,0.0142,0.0183],[0.02,0.05,2255,0.0311,0.0346],[0.05,0.1,966,0.0704,0.0839],[0.1,0.2,603,0.1388,0.1592],[0.2,0.5,428,0.303,0.2967],[0.5,1.0,101,0.6539,0.5644]]},"S1000E":{"raw":{"mean_pred":0.00861,"prev":0.01731,"brier":0.01485,"slope":0.89627,"intercept":0.47752,"ece":0.00869},"cal":{"mean_pred":0.01618,"prev":0.01731,"brier":0.01457,"slope":0.98312,"intercept":0.03131,"ece":0.00232},"bins":[[0,0.005,17980,0.002,0.0023],[0.005,0.01,5252,0.0071,0.0076],[0.01,0.02,3700,0.0141,0.0124],[0.02,0.05,2721,0.031,0.0331],[0.05,0.1,1014,0.0693,0.0986],[0.1,0.2,548,0.1391,0.1423],[0.2,0.5,376,0.2974,0.2739],[0.5,1.0,69,0.638,0.7101]]}}}
+###JSON_END###
+
+✅ Bitti. Çıktının TAMAMINI gönder (çok uzunsa .txt olarak ekle). Kayıtlar: /content/drive/MyDrive/MSHA_AEJ_v7/revision_v24/ckpt
+   Sözlük dosyası: /content/drive/MyDrive/MSHA_AEJ_v7/revision_v24/vocabulary_1000_terms.csv

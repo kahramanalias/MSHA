@@ -1,0 +1,12 @@
+condition,mean_macro_f1,delta_vs_completed_report,mean_severe_recall
+Completed-report baseline,0.462,,0.071
++ DAYS_LOST,0.709,+0.247,0.250
++ SCHEDULE_CHARGE,0.685,+0.223,1.000
++ DAYS_RESTRICT,0.633,+0.171,0.188
++ TRANS_TERM,0.566,+0.104,0.381
++ IMMED_NOTIFY (both forms),0.563,+0.101,0.371
++ RETURN_TO_WORK_DT,0.528,+0.066,0.263
++ INVEST_BEGIN_DT,0.480,+0.018,0.112
++ clinical (assessment) fields,0.667,+0.205,0.741
++ all post-closure and severity-triggered fields,0.998,+0.536,1.000
++ unfiltered narrative,0.462,+0.000,0.071

@@ -1,0 +1,44 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+[v20-vocab] → /content/drive/MyDrive/MSHA_AEJ_v7/vocab_v20
+
+=== 1) Ablasyon ile ana analiz aynı veriyi mi kullanıyor? ===
+  ana analiz: 217,305 kayıt | ablasyon: 217,305 kayıt | yıl×sınıf sayıları aynı: True
+  yapısal alanlar: ana 28 / ablasyon 28 | aynı küme: True | aynı sıra: True
+  terim listesi: ana 100 / ablasyon 100 | ortak 100 | aynı sıra: True
+  ablasyon filtresiz liste ile filtreli liste aynı: True
+
+=== 2) 100 terim her yıl yalnızca geçmiş kayıtlardan seçildiğinde ===
+  S 2006  macroF1=0.4669  ortak terim=91/100  (61s)
+  S 2007  macroF1=0.4874  ortak terim=92/100  (60s)
+  S 2008  macroF1=0.4774  ortak terim=94/100  (60s)
+  S 2009  macroF1=0.4695  ortak terim=94/100  (62s)
+  S 2010  macroF1=0.4653  ortak terim=94/100  (62s)
+  S 2011  macroF1=0.4563  ortak terim=95/100  (65s)
+  S 2012  macroF1=0.5011  ortak terim=95/100  (64s)
+  S 2013  macroF1=0.4731  ortak terim=94/100  (65s)
+  S 2014  macroF1=0.4680  ortak terim=95/100  (67s)
+  S 2015  macroF1=0.4653  ortak terim=96/100  (68s)
+  S 2016  macroF1=0.4557  ortak terim=96/100  (67s)
+  S 2017  macroF1=0.4965  ortak terim=96/100  (66s)
+  S 2018  macroF1=0.4720  ortak terim=97/100  (68s)
+  S 2019  macroF1=0.4486  ortak terim=98/100  (69s)
+  S 2020  macroF1=0.4682  ortak terim=99/100  (70s)
+  S 2021  macroF1=0.4699  ortak terim=99/100  (70s)
+  S 2022  macroF1=0.4468  ortak terim=99/100  (72s)
+  S 2023  macroF1=0.4672  ortak terim=99/100  (71s)
+  B 2018  macroF1=0.6884  ortak terim=97/100  (70s)
+  B 2019  macroF1=0.6566  ortak terim=98/100  (70s)
+  B 2020  macroF1=0.6652  ortak terim=99/100  (71s)
+  B 2021  macroF1=0.6654  ortak terim=99/100  (71s)
+  B 2022  macroF1=0.6663  ortak terim=99/100  (72s)
+  B 2023  macroF1=0.6618  ortak terim=99/100  (71s)
+
+================================================================================================
+  KARŞILAŞTIRMA (global sözlük = makaledeki değerler; yerel = her yıl yalnızca geçmişten)
+================================================================================================
+  Report-time 2006-2023 macro F1: global 0.4693 | yerel 0.4697 | fark ort +0.0004 (min -0.0111, max +0.0117)
+  Report-time 2018-2023 yerel: macroF1 0.4621 L3 P=0.402 R=0.071 F1=0.121 işaret=97 kaçan=509 AP=0.199   (global: 0.461 / 0.427 / 0.069 / 0.119 / 89 / 510 / 0.201)
+  Triage 2018-2023 yerel: macroF1 0.6673 L3 P=0.967 R=0.743 F1=0.840 işaret=421 kaçan=141 AP=0.890   (global: 0.668 / 0.966 / 0.730 / 0.832 / 414 / 148 / 0.889)
+  ortak terim sayısı (S): min 91, max 99
+
+✅ Bitti. Çıktının TAMAMINI gönder.
